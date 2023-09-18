@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AplicacionParaPruebas/1.0.0": {
+        "runtime": {
+          "AplicacionParaPruebas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AplicacionParaPruebas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\carortgim\Desktop\Programacion23-24\AplicacionParaPruebas\AplicacionParaPruebas\bin\Debug\net6.0\AplicacionParaPruebas.exe
+C:\Users\carortgim\Desktop\Programacion23-24\AplicacionParaPruebas\AplicacionParaPruebas\bin\Debug\net6.0\AplicacionParaPruebas.deps.json
+C:\Users\carortgim\Desktop\Programacion23-24\AplicacionParaPruebas\AplicacionParaPruebas\bin\Debug\net6.0\AplicacionParaPruebas.runtimeconfig.json
+C:\Users\carortgim\Desktop\Programacion23-24\AplicacionParaPruebas\AplicacionParaPruebas\bin\Debug\net6.0\AplicacionParaPruebas.dll
+C:\Users\carortgim\Desktop\Programacion23-24\AplicacionParaPruebas\AplicacionParaPruebas\bin\Debug\net6.0\AplicacionParaPruebas.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\AplicacionParaPruebas\AplicacionParaPruebas\obj\Debug\net6.0\AplicacionParaPruebas.csproj.AssemblyReference.cache
+C:\Users\carortgim\Desktop\Programacion23-24\AplicacionParaPruebas\AplicacionParaPruebas\obj\Debug\net6.0\AplicacionParaPruebas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carortgim\Desktop\Programacion23-24\AplicacionParaPruebas\AplicacionParaPruebas\obj\Debug\net6.0\AplicacionParaPruebas.AssemblyInfoInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\AplicacionParaPruebas\AplicacionParaPruebas\obj\Debug\net6.0\AplicacionParaPruebas.AssemblyInfo.cs
+C:\Users\carortgim\Desktop\Programacion23-24\AplicacionParaPruebas\AplicacionParaPruebas\obj\Debug\net6.0\AplicacionParaPruebas.csproj.CoreCompileInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\AplicacionParaPruebas\AplicacionParaPruebas\obj\Debug\net6.0\AplicacionParaPruebas.dll
+C:\Users\carortgim\Desktop\Programacion23-24\AplicacionParaPruebas\AplicacionParaPruebas\obj\Debug\net6.0\refint\AplicacionParaPruebas.dll
+C:\Users\carortgim\Desktop\Programacion23-24\AplicacionParaPruebas\AplicacionParaPruebas\obj\Debug\net6.0\AplicacionParaPruebas.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\AplicacionParaPruebas\AplicacionParaPruebas\obj\Debug\net6.0\AplicacionParaPruebas.genruntimeconfig.cache
+C:\Users\carortgim\Desktop\Programacion23-24\AplicacionParaPruebas\AplicacionParaPruebas\obj\Debug\net6.0\ref\AplicacionParaPruebas.dll
