@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\AplicacionParaPruebas\\AplicacionParaPruebas\\AplicacionParaPruebas.csproj",
+      "projectUniqueName": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\EV1\\AplicacionParaPruebas\\AplicacionParaPruebas\\AplicacionParaPruebas.csproj",
       "projectName": "AplicacionParaPruebas",
-      "projectPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\AplicacionParaPruebas\\AplicacionParaPruebas\\AplicacionParaPruebas.csproj",
+      "projectPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\EV1\\AplicacionParaPruebas\\AplicacionParaPruebas\\AplicacionParaPruebas.csproj",
       "packagesPath": "C:\\Users\\carortgim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\AplicacionParaPruebas\\AplicacionParaPruebas\\obj\\",
+      "outputPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\EV1\\AplicacionParaPruebas\\AplicacionParaPruebas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

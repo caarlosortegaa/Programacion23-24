@@ -25,8 +25,35 @@ namespace AplicacionParaPruebas
             if(n3 >= n1 && n3 >= n2)
                 return n3;
             return n1;
-
             
         }
-    }
+        public static int Sumatory(int n1)
+        {
+            int result = 0;
+            for (int i = 0; i < n1; i++)
+            {
+                result += i;
+            }
+            return result;
+            //    int result = 0;
+            //    int i = 0;
+            //    while (i <= n1)
+            //    {
+            //        result += i;
+            //        i++;
+            //    }
+            //    return result;
+        }
+
+        public static void numbers(int num)
+        {
+
+            for (int i = 0; i < num/2; i++)
+            {
+                Console.WriteLine(i * 2);
+  
+            }
+            return;
+        }
+   }
 }
