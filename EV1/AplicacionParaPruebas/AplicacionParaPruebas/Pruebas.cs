@@ -13,9 +13,14 @@ namespace AplicacionParaPruebas
             return n1 < n2;
         }
 
-        public bool IsEven(int  n1)
+        public static bool IsEven(int  n1)
         {
             return n1 % 2 == 0;
+        }
+
+        public static bool IsImpar(int n1)
+        {
+            return n1 % 2 == 1;
         }
 
         public static int highterNumber(int n1, int n2, int n3)
@@ -45,15 +50,17 @@ namespace AplicacionParaPruebas
             //    return result;
         }
 
-        public static void numbers(int num)
+        public static void ParPositivoParNegativo(int num)
         {
 
-            for (int i = 0; i < num/2; i++)
+            for (int i = 0; i <= num / 2; i++)
             {
+                if (IsImpar(i))
+                   Console.WriteLine(-i * 2);
+                else
                 Console.WriteLine(i * 2);
-  
             }
-            return;
+
         }
    }
 }
