@@ -7,7 +7,8 @@
             //Console.WriteLine(Pruebas.highterNumber(8,7,8));
             //Console.WriteLine(Pruebas.Sumatory(7));
 
-            Pruebas.ParPositivoParNegativo(16);
+            //Pruebas.Generarserie(21);
+            Console.WriteLine(Pruebas.Isprimo(1219));
         }
     }
 }

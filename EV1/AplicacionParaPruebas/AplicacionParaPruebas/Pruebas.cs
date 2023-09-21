@@ -18,7 +18,7 @@ namespace AplicacionParaPruebas
             return n1 % 2 == 0;
         }
 
-        public static bool IsImpar(int n1)
+        public static bool IsOdd(int n1)
         {
             return n1 % 2 == 1;
         }
@@ -50,17 +50,40 @@ namespace AplicacionParaPruebas
             //    return result;
         }
 
-        public static void ParPositivoParNegativo(int num)
+        public static void Generarserie(int num)
         {
-
+            
             for (int i = 0; i <= num / 2; i++)
             {
-                if (IsImpar(i))
-                   Console.WriteLine(-i * 2);
+                if (IsEven(i))
+                   Console.WriteLine(i * 2);
                 else
-                Console.WriteLine(i * 2);
+                Console.WriteLine(-i * 2);
             }
 
+        }
+
+        public static void Serie2(int num)
+        {
+            int n2 = 0;
+            for (int i = 0; i <= num; i++)
+            {
+                if (IsEven(i))
+                    Console.WriteLine(n2 += 5);
+                else
+                    Console.WriteLine(n2 -= 2);
+            }
+        }
+
+        public static bool Isprimo(int n1)
+        {
+            for(int i = 2; i < n1; i++)
+            {
+                if( n1 % i == 0)
+                    return false;
+                
+            }
+            return true;
         }
    }
 }
