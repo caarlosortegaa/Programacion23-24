@@ -9,6 +9,7 @@
 
             //Pruebas.Generarserie(21);
             Console.WriteLine(Pruebas.Isprimo(1219));
+         
         }
     }
 }
