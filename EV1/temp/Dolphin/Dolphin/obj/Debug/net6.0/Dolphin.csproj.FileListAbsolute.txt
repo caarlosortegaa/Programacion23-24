@@ -1,0 +1,15 @@
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Dolphin\Dolphin\bin\Debug\net6.0\Dolphin.exe
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Dolphin\Dolphin\bin\Debug\net6.0\Dolphin.deps.json
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Dolphin\Dolphin\bin\Debug\net6.0\Dolphin.runtimeconfig.json
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Dolphin\Dolphin\bin\Debug\net6.0\Dolphin.dll
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Dolphin\Dolphin\bin\Debug\net6.0\Dolphin.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Dolphin\Dolphin\obj\Debug\net6.0\Dolphin.csproj.AssemblyReference.cache
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Dolphin\Dolphin\obj\Debug\net6.0\Dolphin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Dolphin\Dolphin\obj\Debug\net6.0\Dolphin.AssemblyInfoInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Dolphin\Dolphin\obj\Debug\net6.0\Dolphin.AssemblyInfo.cs
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Dolphin\Dolphin\obj\Debug\net6.0\Dolphin.csproj.CoreCompileInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Dolphin\Dolphin\obj\Debug\net6.0\Dolphin.dll
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Dolphin\Dolphin\obj\Debug\net6.0\refint\Dolphin.dll
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Dolphin\Dolphin\obj\Debug\net6.0\Dolphin.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Dolphin\Dolphin\obj\Debug\net6.0\Dolphin.genruntimeconfig.cache
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Dolphin\Dolphin\obj\Debug\net6.0\ref\Dolphin.dll
