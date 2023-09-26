@@ -8,13 +8,18 @@
             d1 = new Dolphin();
 
             d1.name = "Juan";
-            d1.life = 270.0;
+            d1.life = 280.0;
+            d1.LifeCapacity = 620;
             d1.size = 5.0;
             d1.type = ColorType.BLACK;
 
-            double l;
-            l = d1.GetLifePercent();
-           
+            //double l;
+            //l = d1.GetLifePercent();
+            //Console.WriteLine(l);
+
+            //d1.SetLife(-100.0);
+            
+
         }
     }
 }
