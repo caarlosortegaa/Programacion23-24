@@ -10,7 +10,7 @@ namespace Dolphin
     }
     public class Dolphin
     {
-        public double life;
+        private double _Life;
         public double LifeCapacity;
         public double size;
         public string? name;
@@ -18,19 +18,19 @@ namespace Dolphin
 
         public double GetLifePercent()
         {
-            return life / LifeCapacity * 100;
+            return _Life / LifeCapacity * 100;
         }
 
         public double Getlife()
         {
-            return life;
+            return _Life;
         }
 
         public void SetLife(double value)
         {
            if(value < 0 || value > LifeCapacity)
                 throw new ArgumentOutOfRangeException("value");
-               life = value;
+               _Life = value;
             
         }
     }

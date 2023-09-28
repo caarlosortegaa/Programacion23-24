@@ -85,5 +85,33 @@ namespace AplicacionParaPruebas
             }
             return true;
         }
+        public static string Serie3(int n)
+        {
+            string n2 = "";
+            for(int i = 0; i <=n; i++)
+            {
+                if (i == n)
+                    n2 += i;
+                else
+                 n2 +=  i + ",";
+               
+            }
+            return n2;
+        }
+        public static string Serie4(int n)
+        {
+            int n2 = 1;
+            string res = "";
+            for(int i = 0; i < n; i++)
+            {
+                if (i == n - 1)
+                    res += n2;
+                else
+                    res += n2 + ",";
+                n2 = n2 * 2;
+            }
+            return res;
+
+        }
    }
 }
