@@ -1,0 +1,15 @@
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Basura3\Basura3\bin\Debug\net6.0\Basura3.exe
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Basura3\Basura3\bin\Debug\net6.0\Basura3.deps.json
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Basura3\Basura3\bin\Debug\net6.0\Basura3.runtimeconfig.json
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Basura3\Basura3\bin\Debug\net6.0\Basura3.dll
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Basura3\Basura3\bin\Debug\net6.0\Basura3.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Basura3\Basura3\obj\Debug\net6.0\Basura3.csproj.AssemblyReference.cache
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Basura3\Basura3\obj\Debug\net6.0\Basura3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Basura3\Basura3\obj\Debug\net6.0\Basura3.AssemblyInfoInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Basura3\Basura3\obj\Debug\net6.0\Basura3.AssemblyInfo.cs
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Basura3\Basura3\obj\Debug\net6.0\Basura3.csproj.CoreCompileInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Basura3\Basura3\obj\Debug\net6.0\Basura3.dll
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Basura3\Basura3\obj\Debug\net6.0\refint\Basura3.dll
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Basura3\Basura3\obj\Debug\net6.0\Basura3.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Basura3\Basura3\obj\Debug\net6.0\Basura3.genruntimeconfig.cache
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\Basura3\Basura3\obj\Debug\net6.0\ref\Basura3.dll
