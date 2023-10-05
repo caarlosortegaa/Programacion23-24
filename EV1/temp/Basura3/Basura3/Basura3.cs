@@ -43,7 +43,7 @@ namespace Basura3
             return result;
         }
 
-        public static bool IsInTheList(List<int> ListInt , int num)
+        public static bool ContainList(List<int> ListInt , int num)
         {
             if (ListInt == null)
                 return false;
@@ -94,16 +94,39 @@ namespace Basura3
         {
             if (ListInt == null || ListInt.Count == 0)
                 return false;
-            int number = ListInt[0];
+            int index = ListInt[0];
             for(int i = 1; i < ListInt.Count; i++)
             {
-                if (ListInt[i] < number)
+                if (ListInt[i] < index)
                     return false;
-                number = ListInt[i];
-
+                index = ListInt[i];
             }
             return true;
         }
 
+        public static bool BinarySearch(int[] array, int num)
+        {
+           int min = 0;
+           int max = array.Length -1;
+           int mid;
+
+           while(min <= max)
+           {
+              mid = (max + min) / 2;
+
+              if (array[mid] == num)
+                    return true;
+              if (num < array[mid])
+                    max = mid - 1;
+              else
+                    min = mid + 1;
+                
+           }
+            return false;
+           
+         
+                  
+            
+        }
     }
 }
