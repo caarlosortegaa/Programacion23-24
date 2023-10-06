@@ -123,10 +123,48 @@ namespace Basura3
                 
            }
             return false;
-           
-         
-                  
-            
+        }
+        public static double Media(double[] array)
+        {
+            if (array == null || array.Length == 0)
+                return double.NaN;
+            double media = 0.0;
+            for(int i = 0; i < array.Length; i++)
+            {
+                media = media + array[i];
+            }
+            return media / array.Length;
+        }
+        public static double Signature(double[] array, double threshold)
+        {
+            if (array == null || array.Length == 0)
+                return double.NaN;
+            double media = 0.0;
+            int count = 0;
+            for(int i = 0; i < array.Length; i++)
+            {
+                if (array[i] >= threshold)
+                {
+                    media += array[i];
+                    count++;
+                }
+                if (count == 0)
+                    return double.NaN;
+            }
+            return media / count;
+        }
+        public static int GetMaxCount(List<int> List)
+        {
+            if (List == null || List.Count == 0)
+                return -1;
+            int mayor = higherNumberInTheList(List);
+            int count = 0;
+            for(var i = 0; i < List.Count; i++)
+            {
+                if (mayor == List[i])
+                    count++;
+            }
+            return count;
         }
     }
 }

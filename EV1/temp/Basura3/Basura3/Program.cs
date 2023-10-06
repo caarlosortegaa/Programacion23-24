@@ -17,16 +17,16 @@
             //    IntList.Add(i);
             //Console.WriteLine(Basura3.ContainList(IntList, 67));
 
-            IntList.Add(-10);
-            IntList.Add(-9);
-            IntList.Add(-8);
-            IntList.Add(0);
             IntList.Add(1);
-            IntList.Add(3);
-            IntList.Add(3);
+            IntList.Add(4);
             IntList.Add(5);
+            IntList.Add(8);
+            IntList.Add(3);
+            IntList.Add(10);
+            IntList.Add(2);
             IntList.Add(6);
-
+            IntList.Add(10);
+            Console.WriteLine(Basura3.GetMaxCount(IntList));
             //Console.WriteLine(Basura3.higherNumberInTheList(IntList));
             //Console.WriteLine(Basura3.HighterNumberPositionInTheList(IntList));
             //Console.WriteLine(Basura3.IsInOrder(IntList));
@@ -46,7 +46,19 @@
             array[11] = 130;
             array[12] = 145;
             array[13] = 150;
-            Console.WriteLine(Basura3.BinarySearch(array, 85));
+            //Console.WriteLine(Basura3.BinarySearch(array, 85));
+            double[] array2 = new double[9];
+            array2[0] = 2;
+            array[1] = 5;
+            array2[2] = 10;
+            array2[3] = 10;
+            array2[4] = 30;
+            array2[5] = 35;
+            array2[6] = 35;
+            array2[7] = 40;
+            array2[8] = 55;
+            //Console.WriteLine(Basura3.Signature(array2, 30));
+
 
 
         }
