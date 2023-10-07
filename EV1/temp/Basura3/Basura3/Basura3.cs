@@ -8,7 +8,7 @@ namespace Basura3
 {
     public class Basura3
     {
-        
+
 
         public static int CountElements(List<string> list)
         {
@@ -21,8 +21,8 @@ namespace Basura3
 
         public static void GreaterThanZroCount(List<double> List) // Funcion que te imprime los numeros que hay por encima de 0
         {
-           
-            for(int i = 0; i < List.Count; i++)
+
+            for (int i = 0; i < List.Count; i++)
             {
                 if (List[i] > 0)
                 {
@@ -43,11 +43,11 @@ namespace Basura3
             return result;
         }
 
-        public static bool ContainList(List<int> ListInt , int num)
+        public static bool ContainList(List<int> ListInt, int num)
         {
             if (ListInt == null)
                 return false;
-            for(int i = 0; i < ListInt.Count; i++)
+            for (int i = 0; i < ListInt.Count; i++)
             {
                 if (ListInt[i] == num)
                     return true;
@@ -65,7 +65,7 @@ namespace Basura3
                 return int.MinValue;
 
             int higherNumber = int.MinValue;
-            for(int i = 0; i < IntList.Count; i++)
+            for (int i = 0; i < IntList.Count; i++)
             {
                 if (IntList[i] > higherNumber)
                     higherNumber = IntList[i];
@@ -78,9 +78,9 @@ namespace Basura3
             if (ListInt == null || ListInt.Count == 0)
                 return -1;
 
-            int Max= 0;
+            int Max = 0;
             int index = 0;
-            for(var i = 0; i < ListInt.Count; i++)
+            for (var i = 0; i < ListInt.Count; i++)
             {
                 if (ListInt[i] > Max)
                 {
@@ -95,7 +95,7 @@ namespace Basura3
             if (ListInt == null || ListInt.Count == 0)
                 return false;
             int index = ListInt[0];
-            for(int i = 1; i < ListInt.Count; i++)
+            for (int i = 1; i < ListInt.Count; i++)
             {
                 if (ListInt[i] < index)
                     return false;
@@ -106,22 +106,22 @@ namespace Basura3
 
         public static bool BinarySearch(int[] array, int num)
         {
-           int min = 0;
-           int max = array.Length -1;
-           int mid;
+            int min = 0;
+            int max = array.Length - 1;
+            int mid;
 
-           while(min <= max)
-           {
-              mid = (max + min) / 2;
+            while (min <= max)
+            {
+                mid = (max + min) / 2;
 
-              if (array[mid] == num)
+                if (array[mid] == num)
                     return true;
-              if (num < array[mid])
+                if (num < array[mid])
                     max = mid - 1;
-              else
+                else
                     min = mid + 1;
-                
-           }
+
+            }
             return false;
         }
         public static double Media(double[] array)
@@ -129,7 +129,7 @@ namespace Basura3
             if (array == null || array.Length == 0)
                 return double.NaN;
             double media = 0.0;
-            for(int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array.Length; i++)
             {
                 media = media + array[i];
             }
@@ -141,7 +141,7 @@ namespace Basura3
                 return double.NaN;
             double media = 0.0;
             int count = 0;
-            for(int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] >= threshold)
                 {
@@ -159,12 +159,19 @@ namespace Basura3
                 return -1;
             int mayor = higherNumberInTheList(List);
             int count = 0;
-            for(var i = 0; i < List.Count; i++)
+            for (var i = 0; i < List.Count; i++)
             {
                 if (mayor == List[i])
                     count++;
             }
             return count;
+        }
+        public static void ImprimirLista(List<int> list)
+        {
+            for(int i = 0; i < list.Count; i++)
+            {
+                Console.WriteLine(list[i] + ",");
+            }
         }
     }
 }

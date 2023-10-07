@@ -27,6 +27,7 @@
             IntList.Add(6);
             IntList.Add(10);
             Console.WriteLine(Basura3.GetMaxCount(IntList));
+            Basura3.ImprimirLista(IntList);
             //Console.WriteLine(Basura3.higherNumberInTheList(IntList));
             //Console.WriteLine(Basura3.HighterNumberPositionInTheList(IntList));
             //Console.WriteLine(Basura3.IsInOrder(IntList));
