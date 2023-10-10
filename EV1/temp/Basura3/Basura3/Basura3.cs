@@ -168,10 +168,63 @@ namespace Basura3
         }
         public static void ImprimirLista(List<int> list)
         {
+            if (list == null)
+                return;
             for(int i = 0; i < list.Count; i++)
             {
                 Console.WriteLine(list[i] + ",");
             }
         }
+        public static int[] InverseArray(int[] array)
+        {
+            if (array == null)
+                return null;
+            int[] result = new int[array.Length];
+            for(int i = 0; i < array.Length; i++)
+            {
+                result[i] = array[array.Length - 1 - i];
+            }
+            return result;
+        }
+        public static int[] CopiarArray(int[] Array)
+        {
+            if (Array == null)
+                return null;
+            int[] array2 = new int[Array.Length];
+            for(int i = 0; i < Array.Length - 1; i++)
+            {
+                array2[i] = Array[i];
+            }
+            return array2;
+        }
+        public static List<int> sort(List<int> list)
+        {
+            if (list == null)
+                return null;
+            int aux;
+            int n = list.Count - 1;
+            
+            for(int i = 0; i < n; i++)
+            {
+                for(int j = i + 1; j < list.Count; j++)
+                {
+                    if (list[i] > list[j])
+                    {
+                        Swap(list[i], list[j]);
+                    }
+                }
+            }
+            return list;
+            
+        }
+
+        public static void Swap(int n1, int n2)
+        {
+            int aux = n1;
+            n1 = n2;
+            n2 = aux;
+        }
+
+
     }
 }

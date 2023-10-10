@@ -10,24 +10,22 @@
             ListDouble.Add(3.5);
             //Basura3.GreaterThanZroCount(ListDouble);
             //Console.WriteLine(Basura3.GreaterThanZeroCount(ListDouble));
-
-
             List<int> IntList = new List<int>();
             //for(int i = 0; i < 67; i++)
             //    IntList.Add(i);
             //Console.WriteLine(Basura3.ContainList(IntList, 67));
-
-            IntList.Add(1);
-            IntList.Add(4);
-            IntList.Add(5);
-            IntList.Add(8);
-            IntList.Add(3);
-            IntList.Add(10);
-            IntList.Add(2);
             IntList.Add(6);
-            IntList.Add(10);
-            Console.WriteLine(Basura3.GetMaxCount(IntList));
-            Basura3.ImprimirLista(IntList);
+            IntList.Add(4);
+            IntList.Add(8);
+            IntList.Add(1);
+            IntList.Add(5);
+            IntList.Add(12);
+            IntList.Add(3);
+            IntList.Add(2);
+            IntList.Add(9);
+            Console.WriteLine(Basura3.sort(IntList));
+            //Console.WriteLine(Basura3.GetMaxCount(IntList));
+            //Basura3.ImprimirLista(IntList);
             //Console.WriteLine(Basura3.higherNumberInTheList(IntList));
             //Console.WriteLine(Basura3.HighterNumberPositionInTheList(IntList));
             //Console.WriteLine(Basura3.IsInOrder(IntList));
@@ -58,6 +56,8 @@
             array2[6] = 35;
             array2[7] = 40;
             array2[8] = 55;
+            //Console.WriteLine(Basura3.CopiarArray(array));
+
             //Console.WriteLine(Basura3.Signature(array2, 30));
 
 
