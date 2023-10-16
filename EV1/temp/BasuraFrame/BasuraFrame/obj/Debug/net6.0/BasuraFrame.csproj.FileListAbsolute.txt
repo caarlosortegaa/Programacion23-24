@@ -1,0 +1,15 @@
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\BasuraFrame\BasuraFrame\bin\Debug\net6.0\BasuraFrame.exe
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\BasuraFrame\BasuraFrame\bin\Debug\net6.0\BasuraFrame.deps.json
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\BasuraFrame\BasuraFrame\bin\Debug\net6.0\BasuraFrame.runtimeconfig.json
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\BasuraFrame\BasuraFrame\bin\Debug\net6.0\BasuraFrame.dll
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\BasuraFrame\BasuraFrame\bin\Debug\net6.0\BasuraFrame.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\BasuraFrame\BasuraFrame\obj\Debug\net6.0\BasuraFrame.csproj.AssemblyReference.cache
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\BasuraFrame\BasuraFrame\obj\Debug\net6.0\BasuraFrame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\BasuraFrame\BasuraFrame\obj\Debug\net6.0\BasuraFrame.AssemblyInfoInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\BasuraFrame\BasuraFrame\obj\Debug\net6.0\BasuraFrame.AssemblyInfo.cs
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\BasuraFrame\BasuraFrame\obj\Debug\net6.0\BasuraFrame.csproj.CoreCompileInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\BasuraFrame\BasuraFrame\obj\Debug\net6.0\BasuraFrame.dll
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\BasuraFrame\BasuraFrame\obj\Debug\net6.0\refint\BasuraFrame.dll
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\BasuraFrame\BasuraFrame\obj\Debug\net6.0\BasuraFrame.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\BasuraFrame\BasuraFrame\obj\Debug\net6.0\BasuraFrame.genruntimeconfig.cache
+C:\Users\carortgim\Desktop\Programacion23-24\EV1\temp\BasuraFrame\BasuraFrame\obj\Debug\net6.0\ref\BasuraFrame.dll

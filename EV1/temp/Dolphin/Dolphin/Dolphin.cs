@@ -31,7 +31,6 @@ namespace Dolphin
            if(value < 0 || value > LifeCapacity)
                 throw new ArgumentOutOfRangeException("value");
                _Life = value;
-            
         }
     }
 }
