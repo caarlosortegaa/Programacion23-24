@@ -14,4 +14,7 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft\Xamarin\NuGet\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)openal.soft\1.19.1\build\openal.soft.props" Condition="Exists('$(NuGetPackageRoot)openal.soft\1.19.1\build\openal.soft.props')" />
+  </ImportGroup>
 </Project>
