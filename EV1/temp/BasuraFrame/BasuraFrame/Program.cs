@@ -1,4 +1,5 @@
-﻿using UDK;
+﻿using OpenTK.Windowing.Common.Input;
+using UDK;
 
 namespace BasuraFrame
 {
@@ -10,6 +11,7 @@ namespace BasuraFrame
             public double y = 0.0;
 
             public double r, g, b, a;
+            
         }
         public class MiJuego : UDK.IGameDelegate
         {
@@ -18,25 +20,38 @@ namespace BasuraFrame
             public void OnLoad(GameDelegateEvent gameEvent)
             {
                 Character pj1 = new Character();
-                pj1.r = 1.0;
-                pj1.g = 1.0;
-                pj1.b = 1.0;
-                pj1.a = 1.0;
+                pj1.r = utils.GetRandom();
+                pj1.g = utils.GetRandom();
+                pj1.b = utils.GetRandom();
+                pj1.a = utils.GetRandom();
                 Character pj2 = new Character();
-                pj2.r = 0.0;
-                pj2.g = 1.0;
-                pj2.b = 1.0;
-                pj2.a = 1.0;
+                pj2.r = utils.GetRandom();
+                pj2.g = utils.GetRandom();
+                pj2.b = utils.GetRandom();
+                pj2.a = utils.GetRandom();
                 Character pj3 = new Character();
-                pj3.r = 1.0;
-                pj3.g = 1.0;
-                pj3.b = 0.0;
-                pj3.a = 1.0;
+                pj3.r = utils.GetRandom();
+                pj3.g = utils.GetRandom();
+                pj3.b = utils.GetRandom();
+                pj3.a = utils.GetRandom();
                 jugadores.Add(pj1);
                 jugadores.Add(pj2);
-                jugadores.Add(pj3);
+                jugadores.Add(pj3);             
             }
+            public void OnKeyboard(GameDelegateEvent gameEvent, IKeyboard keyboard, IMouse mouse)
+            {
+                
+                    if (keyboard.IsKeyDown(Keys.Right))
+                        jugadores[0].x += 3.5f;
+                    if (keyboard.IsKeyDown(Keys.Left))
+                        jugadores[0].x -= 3.5f;
+                    if (keyboard.IsKeyDown(Keys.Up))
+                        jugadores[0].y += 3.5f;
+                    if (keyboard.IsKeyDown(Keys.Down))
+                        jugadores[0].y -= 3.5f;
+                
 
+            }
             public void OnAnimate(GameDelegateEvent gameEvent)
             {
                 for (int i = 0; i < jugadores.Count; i++)
@@ -59,25 +74,6 @@ namespace BasuraFrame
                 }
                 
             }
-
-            public void OnKeyboard(GameDelegateEvent gameEvent, IKeyboard keyboard, IMouse mouse)
-            {
-                for (int i = 0; i < jugadores.Count; i++)
-                {
-                    if (keyboard.IsKeyDown(Keys.Right))
-                        jugadores[i].x += 3.5f;
-                    if (keyboard.IsKeyDown(Keys.Left))
-                        jugadores[i].x -= 3.5f;
-                    if (keyboard.IsKeyDown(Keys.Up))
-                        jugadores[i].y += 3.5f;
-                    if (keyboard.IsKeyDown(Keys.Down))
-                        jugadores[i].y -= 3.5f;
-                }
-
-            }
-
-            
-
             public void OnUnload(GameDelegateEvent gameEvent)
             {
                 
