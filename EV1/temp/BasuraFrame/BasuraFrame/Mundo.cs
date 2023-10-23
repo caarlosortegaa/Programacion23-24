@@ -23,7 +23,7 @@ namespace BasuraFrame
         public void CreateCharacter()
         {
             
-            for (int i = 0; i < 200; i++)
+            for (int i = 0; i < 11; i++)
             {
                 Character j = new Character();
                 j.r = utils.GetRandom();
@@ -44,5 +44,9 @@ namespace BasuraFrame
                 ch.Draw(canvas);
             }
         }
+        //public bool Colision()
+        //{
+
+        //}
     }
 }

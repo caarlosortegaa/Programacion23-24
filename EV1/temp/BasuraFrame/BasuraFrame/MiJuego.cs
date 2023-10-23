@@ -10,6 +10,7 @@ namespace BasuraFrame
     public class MiJuego : UDK.IGameDelegate
     {
         Mundo? Mundo;
+
        
         public void OnLoad(GameDelegateEvent gameEvent)
         {
@@ -17,16 +18,16 @@ namespace BasuraFrame
             Mundo.CreateCharacter();
         }
         public void OnKeyboard(GameDelegateEvent gameEvent, IKeyboard keyboard, IMouse mouse)
-        {
+        { 
             
                 if (keyboard.IsKeyDown(Keys.Right))
-                    Mundo.GetCharacterAt(0).x += 3.5f;
+                    Mundo.GetCharacterAt(0).rectangle.x += 3.5f;
                 if (keyboard.IsKeyDown(Keys.Left))
-                    Mundo.GetCharacterAt(0).x -= 3.5f;
+                    Mundo.GetCharacterAt(0).rectangle.x -= 3.5f;
                 if (keyboard.IsKeyDown(Keys.Up))
-                    Mundo.GetCharacterAt(0).y += 3.5f;
+                    Mundo.GetCharacterAt(0).rectangle.y += 3.5f;
                 if (keyboard.IsKeyDown(Keys.Down))
-                    Mundo.GetCharacterAt(0).y -= 3.5f;
+                    Mundo.GetCharacterAt(0).rectangle.y -= 3.5f;
             
 
         }
@@ -34,8 +35,8 @@ namespace BasuraFrame
         {
             for (int i = 0; i < Mundo.GetCharacterCount(); i++)
             {
-                Mundo.GetCharacterAt(i).x += utils.GetRandomReal(-1, 1);
-                Mundo.GetCharacterAt(i).y += utils.GetRandomReal(-2, 2);
+                Mundo.GetCharacterAt(i).rectangle.x += utils.GetRandomReal(-0.5, 0.5);
+                Mundo.GetCharacterAt(i).rectangle.y += utils.GetRandomReal(-0.5, 0.5);
             }
         }
 
