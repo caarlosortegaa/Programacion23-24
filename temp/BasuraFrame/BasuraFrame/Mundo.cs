@@ -1,15 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using UDK;
 
 namespace BasuraFrame
 {
     public class Mundo
     {
-       private List<Character> _jugadores = new List<Character>();
+        private List<Character> _jugadores = new List<Character>();
+        private double _width = 1150;
+        private double _heigth = 950;
+        public double Getwidth()
+        {
+            return _width;
+        }
+        public double GetHeigth()
+        {
+            return _heigth;
+        }
+        public void SetWidth(double value)
+        {
+            _width = value;
+        }
+
+        public void SetHeigth(double value)
+        {
+            _heigth = value;
+        }
+
         public int GetCharacterCount()
         { 
             return _jugadores.Count; 
@@ -34,19 +50,19 @@ namespace BasuraFrame
             }
         }
 
+        
+
         public void DrawWorld(ICanvas canvas)
         {
             canvas.Clear(0.0, 0.0, 0.0, 1.0);
-            canvas.Camera.SetRectangle(0, 0, canvas.Width, canvas.Height);
+            canvas.Camera.SetRectangle(0, 0, _width, _heigth);
             for (int i = 0; i < _jugadores.Count; i++)
             {
                 Character ch = _jugadores[i];
                 ch.Draw(canvas);
             }
         }
-        //public bool Colision()
-        //{
-
-        //}
+      
+        
     }
 }

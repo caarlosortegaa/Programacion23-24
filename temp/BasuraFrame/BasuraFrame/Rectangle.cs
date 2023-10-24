@@ -8,15 +8,11 @@ namespace BasuraFrame
 {
     public class Rectangle
     {
-        public double x;
-        public double y;
+        public double x = 1000;
+        public double y = 500;
         public double width = utils.GetRandomReal(100, 400);
         public double height = utils.GetRandomReal(100, 400);
 
-        //public bool IsIntersecting(Rectangle r)
-        //{
-        //    if(x == r.x && y == r.y)
-        //        return true;
-        //}
+
     }
 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using UDK;
 
 namespace BasuraFrame
@@ -18,16 +14,18 @@ namespace BasuraFrame
             Mundo.CreateCharacter();
         }
         public void OnKeyboard(GameDelegateEvent gameEvent, IKeyboard keyboard, IMouse mouse)
-        { 
-            
+        {  
                 if (keyboard.IsKeyDown(Keys.Right))
-                    Mundo.GetCharacterAt(0).rectangle.x += 3.5f;
+                    Mundo.GetCharacterAt(0).rectangle.x += 1.0f;   
                 if (keyboard.IsKeyDown(Keys.Left))
-                    Mundo.GetCharacterAt(0).rectangle.x -= 3.5f;
+                    Mundo.GetCharacterAt(0).rectangle.x -= 1.0f;
                 if (keyboard.IsKeyDown(Keys.Up))
-                    Mundo.GetCharacterAt(0).rectangle.y += 3.5f;
+                    Mundo.GetCharacterAt(0).rectangle.y += 1.0f;
                 if (keyboard.IsKeyDown(Keys.Down))
-                    Mundo.GetCharacterAt(0).rectangle.y -= 3.5f;
+                    Mundo.GetCharacterAt(0).rectangle.y -= 1.0f;
+                if(keyboard.IsKeyDown(Keys.Escape))
+                gameEvent.window.Close();
+                
             
 
         }
@@ -35,8 +33,8 @@ namespace BasuraFrame
         {
             for (int i = 0; i < Mundo.GetCharacterCount(); i++)
             {
-                Mundo.GetCharacterAt(i).rectangle.x += utils.GetRandomReal(-0.5, 0.5);
-                Mundo.GetCharacterAt(i).rectangle.y += utils.GetRandomReal(-0.5, 0.5);
+                Mundo.GetCharacterAt(i).rectangle.x += utils.GetRandomReal(0, 0);
+                Mundo.GetCharacterAt(i).rectangle.y += utils.GetRandomReal(0, 0);
             }
         }
 
