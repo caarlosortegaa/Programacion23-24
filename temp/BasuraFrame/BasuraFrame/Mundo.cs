@@ -45,7 +45,7 @@ namespace BasuraFrame
                 j.r = utils.GetRandom();
                 j.g = utils.GetRandom();
                 j.b = utils.GetRandom();
-                j.a = utils.GetRandom();
+                j.a = 1;
                 _jugadores.Add(j);
             }
         }

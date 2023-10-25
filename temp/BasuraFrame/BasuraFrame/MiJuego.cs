@@ -16,17 +16,20 @@ namespace BasuraFrame
         public void OnKeyboard(GameDelegateEvent gameEvent, IKeyboard keyboard, IMouse mouse)
         {  
                 if (keyboard.IsKeyDown(Keys.Right))
-                    Mundo.GetCharacterAt(0).rectangle.x += 1.0f;   
+                    Mundo.GetCharacterAt(0).rectangle.x += 1.0;   
                 if (keyboard.IsKeyDown(Keys.Left))
-                    Mundo.GetCharacterAt(0).rectangle.x -= 1.0f;
+                    Mundo.GetCharacterAt(0).rectangle.x -= 1.0;
                 if (keyboard.IsKeyDown(Keys.Up))
-                    Mundo.GetCharacterAt(0).rectangle.y += 1.0f;
+                    Mundo.GetCharacterAt(0).rectangle.y += 1.0;
                 if (keyboard.IsKeyDown(Keys.Down))
-                    Mundo.GetCharacterAt(0).rectangle.y -= 1.0f;
+                    Mundo.GetCharacterAt(0).rectangle.y -= 1.0;
                 if(keyboard.IsKeyDown(Keys.Escape))
-                gameEvent.window.Close();
-                
-            
+                    gameEvent.window.Close();
+                if (keyboard.IsKeyDown(Keys.F11))
+                    gameEvent.window.ToggleFullscreen();
+
+
+
 
         }
         public void OnAnimate(GameDelegateEvent gameEvent)
