@@ -13,23 +13,24 @@ namespace Classes
     }
     public class CoinChange
     {
-        public int ToNumber(Coin coin)
+        
+        public static int ToNumber(Coin coin)
         {
             if (coin == Coin.E_500)
                 return 50000;
-           else if (coin == Coin.E_200)
+            if (coin == Coin.E_200)
                 return 20000;
-           else if (coin == Coin.E_100)
+            if (coin == Coin.E_100)
                 return 10000;
-           else if (coin == Coin.E_50)
+            if (coin == Coin.E_50)
                 return 5000;
-           else if (coin == Coin.E_20)
+            if (coin == Coin.E_20)
                 return 2000;
-           else if (coin == Coin.E_10)
+            if (coin == Coin.E_10)
                 return 1000;
-           else if (coin == Coin.E_5)
+            if (coin == Coin.E_5)
                 return 500;
-           else if (coin == Coin.E_1)
+            if (coin == Coin.E_1)
                 return 100;
             return 0;
 
@@ -56,12 +57,5 @@ namespace Classes
 
 
         }
-        //public List<Coin> GetCoins(int centims)
-        //{
-        //    List<Coin> coinList = new List<Coin>();
-
-
-        //}
-
     }
 }
