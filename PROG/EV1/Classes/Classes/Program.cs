@@ -4,8 +4,11 @@
     {
         static void Main(string[] args)
         {
-            CoffeeMachine c = new CoffeeMachine();
-            c.ChangeToNextState();
+            //CoffeeMachine c = new CoffeeMachine();
+            //c.ChangeToNextState();
+            Domino f = new Domino();
+            f.SetValues(7, 9);
+            Console.WriteLine(f.IsDouble());
         }
     }
 }
