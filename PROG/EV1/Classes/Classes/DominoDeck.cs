@@ -5,7 +5,7 @@ namespace Classes
     {
         private List<DominoPiece> _pieceList = new List<DominoPiece>();
 
-        public DominoPiece ExtractPiece(int index)
+        public DominoPiece? ExtractPiece(int index)
         {
             
              var p = _pieceList[index];
