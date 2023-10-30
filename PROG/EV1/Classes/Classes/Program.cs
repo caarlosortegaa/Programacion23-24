@@ -6,9 +6,9 @@
         {
             //CoffeeMachine c = new CoffeeMachine();
             //c.ChangeToNextState();
-            DominoPiece f = new DominoPiece(6,6);
-            f.IsDouble();
-           
+            DominoPiece f = DominoPiece.CreatePiece(6, 5);
+            
+            f?.GetValue1();
         }
     }
 }
