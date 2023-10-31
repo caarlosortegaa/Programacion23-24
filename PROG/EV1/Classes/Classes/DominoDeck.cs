@@ -31,16 +31,18 @@ namespace Classes
         {
            return GetPieceAt(index);
         }
-        public void Shuffle()
+        public void Shuffle(int n = 2000)
         {
-            for(int i = 0; i < 500; i++)
+            
+            for(int i = 0; i < n; i++)
             {
                 int piece = Utils.GetRandom(0, _pieceList.Count);
                 int piece2 = Utils.GetRandom(0, _pieceList.Count);
 
                 int aux = piece;
                 piece = piece2;
-                piece2 = piece;
+                piece2 = aux;
+                n++;
             }
         }
     }

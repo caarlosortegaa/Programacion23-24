@@ -4,11 +4,14 @@
     {
         static void Main(string[] args)
         {
-            //CoffeeMachine c = new CoffeeMachine();
-            //c.ChangeToNextState();
-            DominoPiece f = DominoPiece.CreatePiece(6, 5);
-            
-            f?.GetValue1();
+            Card c = new Card(Palo.CORAZONES, 5);
+            Card c1 = new Card(Palo.TREBOLES, 11);
+            List<Card> card = new List<Card>();
+            card.Add(c1);
+            card.Add(c);
+
+
+            Console.WriteLine(UtilsCard.BlackJack(card));
         }
     }
 }

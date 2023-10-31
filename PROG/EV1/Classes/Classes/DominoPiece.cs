@@ -39,16 +39,5 @@ namespace Classes
                 return true;
             return false;
         }
-
-
-        //public void SetValues(int value1, int value2)
-        //{
-        //    if (value1 > 6)
-        //        value1 = 6;
-        //    if(value2 > 6)
-        //        value2 = 6;
-        //    _value1 = value1;
-        //    _value2 = value2;
-        //}
     }
 }
