@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Classes
+﻿namespace Classes
 {
     public enum Palo
     {
@@ -14,7 +8,7 @@ namespace Classes
     {
         ROJO, NEGRO
     }
-    public enum FigureType
+    public enum FigureCardType
     {
         NO_ES_FIGURA,AS = 1, J = 11, Q = 12, K = 13, JOKER = 0
     }
@@ -44,23 +38,24 @@ namespace Classes
         }
         public bool Isfigure()
         {
-            if (_number == 1 || _number > 10 && _number <= 13 || _number == 0)
-                return true;
-            return false;
+            if (!Isvalid())
+                return false;
+            return _number <= 1 || _number > 10;
+             
         }
-        public FigureType GetFigure()
+        public FigureCardType GetFigure()
         {
             if (_number == 0)
-                return FigureType.JOKER;
+                return FigureCardType.JOKER;
             if(_number == 1)
-                return FigureType.AS;
+                return FigureCardType.AS;
             if(_number == 11)
-                return FigureType.J;
+                return FigureCardType.J;
             if(_number == 12)
-                return FigureType.Q;
+                return FigureCardType.Q;
             if(_number == 13)
-            return FigureType.K;
-            return FigureType.NO_ES_FIGURA;
+            return FigureCardType.K;
+            return FigureCardType.NO_ES_FIGURA;
            
         }
         public ColorType? GetColor()
