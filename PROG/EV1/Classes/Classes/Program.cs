@@ -11,9 +11,9 @@
             card.Add(c);
             card.Add(c1);
             card.Add(c2);
-
-
             Console.WriteLine(UtilsCard.BlackJack(card));
+
+            
         }
     }
 }
