@@ -9,6 +9,8 @@
             wz.CreateWarriors(5, TeamType.DWARF);
             wz.CreateWarriors(5, TeamType.ORC);
             wz.CreateWarriors(5, TeamType.ELF);
+
+            Console.WriteLine(wz.GetEnemiesCount(5,5,TeamType.ELF));
         }
     }
 }

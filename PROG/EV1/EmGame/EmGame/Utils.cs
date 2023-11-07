@@ -8,11 +8,11 @@ namespace EmGame
 {
     public class Utils
     {
-        public static Random _random = new Random();
+        private static Random _random = new Random();
 
         public static int GetRandom(int min, int max)
         {
-            int dif = min - max + 1;
+            int dif = max - min + 1;
             return min + (_random.Next() % dif);
         }
         public static double GetRandomReal(double min, double max)
