@@ -50,7 +50,7 @@ namespace EmGame
         {
             _Warriors.RemoveAt(index);
         }
-        public int GetEnemiesCount(int x , int y , TeamType type)
+        public int GetEnemiesCount(int x , int y, TeamType type)
         {
             int count = 0;  
             for(int i = (x - 1); i <= (x + 1);i++)
