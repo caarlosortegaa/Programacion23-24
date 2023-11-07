@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\EV1\\temp\\Dolphin\\Dolphin\\Dolphin.csproj": {}
+    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\Dolphin\\Dolphin\\Dolphin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\EV1\\temp\\Dolphin\\Dolphin\\Dolphin.csproj": {
+    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\Dolphin\\Dolphin\\Dolphin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\EV1\\temp\\Dolphin\\Dolphin\\Dolphin.csproj",
+        "projectUniqueName": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\Dolphin\\Dolphin\\Dolphin.csproj",
         "projectName": "Dolphin",
-        "projectPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\EV1\\temp\\Dolphin\\Dolphin\\Dolphin.csproj",
+        "projectPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\Dolphin\\Dolphin\\Dolphin.csproj",
         "packagesPath": "C:\\Users\\carortgim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\EV1\\temp\\Dolphin\\Dolphin\\obj\\",
+        "outputPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\Dolphin\\Dolphin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
