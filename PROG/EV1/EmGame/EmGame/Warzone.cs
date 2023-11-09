@@ -30,6 +30,10 @@ namespace EmGame
                 _Warriors.Add(w);
             }
         }
+        public void RemoveAt(int index)
+        {
+            _Warriors.RemoveAt(index);
+        }
         public Warrior? GetWarriorAt(int index)
         {
             if (index < 0)
@@ -45,33 +49,55 @@ namespace EmGame
             }
             return null;
         }
-
-        public void RemoveAt(int index)
+        public int GetWarriorCount()
         {
-            _Warriors.RemoveAt(index);
+            return _Warriors.Count;
         }
-        public int GetEnemiesCount(int x , int y, TeamType type)
+
+        
+        public int GetEnemiesArroundCount(int x , int y, TeamType type)
         {
             int count = 0;  
             for(int i = (x - 1); i <= (x + 1);i++)
             {
                 for (int j = (y - 1); j <= (y + 1);j++)
                 {
-                    if(IsEnemies(i , j , _Warriors, type) == true)
+                    if(IsWarrior(i , j , _Warriors) == true && GetWarriorAt(i).GetTeamType() != type)
                         count++;
                 }
             }
             return count;
         }
-        public bool IsEnemies(int x , int y, List<Warrior> listW, TeamType type)
+        public int GetWarriorArroundCount(int x , int y)
+        {
+            int count = 0;
+            if (IsWarrior(x, y, _Warriors))
+                count++;
+            for(var i = (x - 1); i <= (x + 1);i++)
+            {
+                for(var j = (y - 1); j <= (y + 1);j++)
+                {
+                    if (IsWarrior(i, j, _Warriors) == true)
+                        count++;
+                    
+                }
+            }
+            return count;
+        }
+        //public List<Warrior> GetWarriorArround(int x , int y)
+        //{
+
+        //}
+        public bool IsWarrior(int x , int y, List<Warrior> listW)
         {
             for(var i = 0; i < listW.Count;i++)
             {
-                if (GetWarriorAt(i).GetX() == x && GetWarriorAt(i).GetY() == y && GetWarriorAt(i).GetTeamType() != type)
+                if (GetWarriorAt(i).GetX() == x && GetWarriorAt(i).GetY() == y)
                     return true;
             }
             return false;
         }
+        
         
     }
 }

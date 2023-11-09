@@ -5,12 +5,13 @@
         static void Main(string[] args)
         {
             Warzone wz = new Warzone(10, 10);
-            wz.CreateWarriors(5, TeamType.HUMAN);
-            wz.CreateWarriors(5, TeamType.DWARF);
-            wz.CreateWarriors(5, TeamType.ORC);
-            wz.CreateWarriors(5, TeamType.ELF);
+            wz.CreateWarriors(20, TeamType.HUMAN);
+            wz.CreateWarriors(20, TeamType.DWARF);
+            wz.CreateWarriors(20, TeamType.ORC);
+            wz.CreateWarriors(20, TeamType.ELF);
 
-            Console.WriteLine(wz.GetEnemiesCount(5,5,TeamType.ELF));
+            Console.WriteLine(wz.GetEnemiesArroundCount(4, 7, TeamType.DWARF));
+            Console.WriteLine(wz.GetWarriorArroundCount(4, 7));
         }
     }
 }
