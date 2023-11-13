@@ -28,12 +28,14 @@ namespace EmGame
            
             for(int i = 0; i < count; i++)
             {
-                Warrior w = new Warrior(Utils.GetRandom(0,10) , Utils.GetRandom(0, 10), 100, Utils.GetRandom(0, 6),  Utils.GetRandomReal(0, 10.0), type);
+                Warrior w = new Warrior(Utils.GetRandom(0,_width) , Utils.GetRandom(0, _height), 100, Utils.GetRandom(0, 6),  Utils.GetRandomReal(0, 10.0), type);
                 _Warriors.Add(w);
             }
         }
         public void RemoveAt(int index)
         {
+            if(index < 0 || index >= _Warriors.Count)
+                return;
             _Warriors.RemoveAt(index);
         }
         public Warrior? GetWarriorAt(int index)
@@ -64,7 +66,7 @@ namespace EmGame
             {
                 for (int j = (y - 1); j <= (y + 1);j++)
                 {
-                    if(IsWarrior(i , j , _Warriors) == true && GetWarriorAt(i).GetTeamType() != type)
+                    if(GetWarrior(i , j) != null && GetWarrior(i , j).GetTeamType() != type && i != x && j != y)
                         count++;
                 }
             }
@@ -72,14 +74,12 @@ namespace EmGame
         }
         public int GetWarriorArroundCount(int x , int y)
         {
-            int count = 0;
-            if (IsWarrior(x, y, _Warriors))
-                count++;
+            int count = 0;  
             for(var i = (x - 1); i <= (x + 1);i++)
             {
                 for(var j = (y - 1); j <= (y + 1);j++)
                 {
-                    if (IsWarrior(i, j, _Warriors) == true)
+                    if (GetWarrior(i, j) != null && i != x && j != y)
                         count++;
                     
                 }
@@ -89,29 +89,20 @@ namespace EmGame
         public List<Warrior> GetWarriorArround(int x, int y)
         {
             List<Warrior> List = new List<Warrior>();
-            for(int i = (x -1); i <= (x + 1);i++)
+            for (int i = (x - 1); i <= (x + 1); i++)
             {
-                for(int j = (y - 1); j <= (y + 1);i++)
+                for (int j = (y - 1); j <= (y + 1); i++)
                 {
-                    if (IsWarrior(i, j, _Warriors))
+                    if (GetWarrior(i, j) != null)
                         List.Add(GetWarrior(i, j));
                 }
             }
             return List;
         }
-        public bool IsWarrior(int x , int y, List<Warrior> listW)
-        {
-            for(var i = 0; i < listW.Count;i++)
-            {
-                if (GetWarriorAt(i).GetX() == x && GetWarriorAt(i).GetY() == y)
-                    return true;
-            }
-            return false;
-        }
 
         public static double GetDistance(double x, double y, double x2 , double y2)
         {
-            return Math.Sqrt((x2 - x) * 2 + (y2 - 2)* 2);
+            return  Math.Sqrt((x2 - x) * 2 + (y2 - 2) * 2);
         }
         
     }
