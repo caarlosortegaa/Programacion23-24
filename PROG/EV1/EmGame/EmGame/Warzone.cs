@@ -1,5 +1,7 @@
 ﻿
 
+using System.Net.NetworkInformation;
+
 namespace EmGame
 {
     public class Warzone
@@ -84,10 +86,19 @@ namespace EmGame
             }
             return count;
         }
-        //public List<Warrior> GetWarriorArround(int x , int y)
-        //{
-
-        //}
+        public List<Warrior> GetWarriorArround(int x, int y)
+        {
+            List<Warrior> List = new List<Warrior>();
+            for(int i = (x -1); i <= (x + 1);i++)
+            {
+                for(int j = (y - 1); j <= (y + 1);i++)
+                {
+                    if (IsWarrior(i, j, _Warriors))
+                        List.Add(GetWarrior(i, j));
+                }
+            }
+            return List;
+        }
         public bool IsWarrior(int x , int y, List<Warrior> listW)
         {
             for(var i = 0; i < listW.Count;i++)
@@ -97,7 +108,11 @@ namespace EmGame
             }
             return false;
         }
-        
+
+        public static double GetDistance(double x, double y, double x2 , double y2)
+        {
+            return Math.Sqrt((x2 - x) * 2 + (y2 - 2)* 2);
+        }
         
     }
 }

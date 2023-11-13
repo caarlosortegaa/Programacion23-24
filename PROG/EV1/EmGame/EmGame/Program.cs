@@ -12,6 +12,7 @@
 
             Console.WriteLine(wz.GetEnemiesArroundCount(4, 7, TeamType.DWARF));
             Console.WriteLine(wz.GetWarriorArroundCount(4, 7));
+            Console.WriteLine(Warzone.GetDistance(2, 7, 5, 8));
         }
     }
 }
