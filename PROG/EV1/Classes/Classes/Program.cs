@@ -12,11 +12,12 @@
             //card.Add(c1);
             //card.Add(c2);
             //Console.WriteLine(UtilsCard.BlackJack(card));
-            DateTime d = new DateTime(15, 12, 2003);
-            Console.WriteLine(d.ToString());
-            Console.WriteLine(d.GetDaysCount(2013 , 2));
+            DateTime d = new DateTime(12,10, 12,3221, 7, 800);
+            Console.WriteLine(d.DateToString());
+            Console.WriteLine(d.GetDaysCount(2013, 2));
 
-            
+
+
         }
     }
 }
