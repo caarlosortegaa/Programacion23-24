@@ -1,6 +1,4 @@
-﻿
-
-namespace Classes
+﻿namespace Classes
 {
     public enum DayOfWeek
     {
@@ -54,18 +52,19 @@ namespace Classes
         {
             return _dayOfWeek;
         }
-        //public DateTime Clone()
-        //{
-        //}
         public bool IsValid()
         {
-            if(_second < 0 || _minute < 0 || _hour < 0 || _day < 0 || _month < 0 ||_year < 0)
+            if(_second < 0  || _minute < 0 || _hour < 0 || _day < 0 || _month < 0 ||_year < 0)
                 return false;
             return true;
         }
         public static bool IsLeap(int year)
         {
             return year % 4 == 0 && year % 100 != 0 ? true : false;
+        }
+        public bool Isleap()
+        {
+            return _year % 4 == 0 && _year % 100 != 0 ? true : false;
         }
         public string DateToString()
         {
@@ -83,10 +82,14 @@ namespace Classes
             if (IsLeap(year) && month == 2)
                 count += 29;
             return count;
-            
         }
-
-
-
+        public void IncrementDay()
+        {
+            _day++;
+        }
+        public void IncrementSecond()
+        {
+            _second++;
+        }
     }
 }

@@ -1,5 +1,4 @@
-﻿
-namespace Classes
+﻿namespace Classes
 {
     public class DominoDeck
     {
@@ -14,7 +13,7 @@ namespace Classes
         }
         public DominoPiece ExtractPiece()
         {
-            int random = Utils.GetRandom(0, _pieceList.Count);
+            int random = Utils.GetRandom(0, _pieceList.Count -1);
             return _pieceList[random];
         }
         public int GetPieceCount()

@@ -1,6 +1,4 @@
-﻿
-
-namespace Classes
+﻿namespace Classes
 {
     public enum Estado
     {
