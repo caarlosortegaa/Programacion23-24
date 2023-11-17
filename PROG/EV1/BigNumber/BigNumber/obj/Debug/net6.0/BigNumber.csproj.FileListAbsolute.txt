@@ -1,0 +1,15 @@
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV1\BigNumber\BigNumber\bin\Debug\net6.0\BigNumber.exe
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV1\BigNumber\BigNumber\bin\Debug\net6.0\BigNumber.deps.json
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV1\BigNumber\BigNumber\bin\Debug\net6.0\BigNumber.runtimeconfig.json
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV1\BigNumber\BigNumber\bin\Debug\net6.0\BigNumber.dll
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV1\BigNumber\BigNumber\bin\Debug\net6.0\BigNumber.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV1\BigNumber\BigNumber\obj\Debug\net6.0\BigNumber.csproj.AssemblyReference.cache
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV1\BigNumber\BigNumber\obj\Debug\net6.0\BigNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV1\BigNumber\BigNumber\obj\Debug\net6.0\BigNumber.AssemblyInfoInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV1\BigNumber\BigNumber\obj\Debug\net6.0\BigNumber.AssemblyInfo.cs
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV1\BigNumber\BigNumber\obj\Debug\net6.0\BigNumber.csproj.CoreCompileInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV1\BigNumber\BigNumber\obj\Debug\net6.0\BigNumber.dll
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV1\BigNumber\BigNumber\obj\Debug\net6.0\refint\BigNumber.dll
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV1\BigNumber\BigNumber\obj\Debug\net6.0\BigNumber.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV1\BigNumber\BigNumber\obj\Debug\net6.0\BigNumber.genruntimeconfig.cache
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV1\BigNumber\BigNumber\obj\Debug\net6.0\ref\BigNumber.dll
