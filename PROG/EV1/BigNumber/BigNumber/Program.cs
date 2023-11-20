@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            List<int> list = new List<int>();
+            
+            BigNumber b = new BigNumber(6000000000000000000);
+            
+
         }
     }
 }

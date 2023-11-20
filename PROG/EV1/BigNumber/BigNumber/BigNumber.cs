@@ -1,7 +1,4 @@
 ﻿
-
-using System.Security.Cryptography.X509Certificates;
-
 namespace BigNumber
 {
     public  class BigNumber
@@ -9,11 +6,17 @@ namespace BigNumber
         private List<int> _ListInt = new List<int>();
         public BigNumber(long longs)
         {
-            int u = (int)longs;
-            while(u > 10)
+             
+            while(longs > 10)
             {
-                _ListInt.Add(u % 10);
-                u = u / 10;
+                
+            }
+            for(int i = 0; i < _ListInt.Count / 2; i++)
+            {
+                int num = _ListInt.Count - 1 - i;
+                int aux = _ListInt[i];
+                _ListInt[i] = num;
+                num = aux;
             }
         }
         public BigNumber(string s)
@@ -42,7 +45,7 @@ namespace BigNumber
         }
         public int GetDigitAt(int index)
         {
-            return 0;
+            return _ListInt[index];
         }
         public BigNumber clone()
         {
@@ -52,7 +55,7 @@ namespace BigNumber
         {
             return big1;
         }
-        public static BigNumber b2(BigNumber b1, BigNumber b2)
+        public static BigNumber sub(BigNumber b1, BigNumber b2)
         {
             return b2;
         }
