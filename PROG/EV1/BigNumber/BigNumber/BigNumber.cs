@@ -4,14 +4,20 @@ namespace BigNumber
     public  class BigNumber
     {
         private List<int> _ListInt = new List<int>();
-        public BigNumber(long longs)
+        public BigNumber()
         {
-             
-            while(longs > 10)
+        }
+        
+
+        public void Set(long longs)
+        {
+            int n = (int)longs;
+            while ((n % 10) > 0)
             {
-                
+                _ListInt.Add(n);
+                n = n / 10;
             }
-            for(int i = 0; i < _ListInt.Count / 2; i++)
+            for (int i = 0; i <= _ListInt.Count / 2; i++)
             {
                 int num = _ListInt.Count - 1 - i;
                 int aux = _ListInt[i];
@@ -19,25 +25,21 @@ namespace BigNumber
                 num = aux;
             }
         }
-        public BigNumber(string s)
+        public void Set(string s)
         {
-            for(int i = 0; i < s.Length; i++)
+            for (int i = 0; i < s.Length; i++)
             {
                 _ListInt.Add(s[i]);
             }
         }
-
-        public void Set(long n1)
-        {
-
-        }
-        public void Set(string s)
-        {
-
-        }
         public string ToString()
         {
-            return "";
+            string result = "";
+            for(int i = 0; i < _ListInt.Count; i++)
+            {
+                result = result + _ListInt[i] ;
+            }
+            return result;
         }
         public int GetDigitCount()
         {
@@ -49,7 +51,7 @@ namespace BigNumber
         }
         public BigNumber clone()
         {
-            return new BigNumber("");
+            return new BigNumber();
         }
         public static BigNumber Add(BigNumber big1, BigNumber big2)
         {
