@@ -20,6 +20,10 @@ namespace BigNumber
                 num = aux;
             }
         }
+        public BigNumber()
+        {
+
+        }
         public void Set(long longs)
         {
         }
@@ -49,12 +53,11 @@ namespace BigNumber
         }
         public BigNumber clone()
         {
-            return new BigNumber();
+            //return new BigNumber();
         }
         public static BigNumber Add(BigNumber big1, BigNumber big2)
         {
-            BigNumber b3;
-            List<long> bignumber = new List<long>();
+            BigNumber b3 = new BigNumber();
             int num;
            for(int i = 0; i < big1._ListInt.Count; i++)
             {
