@@ -4,12 +4,7 @@ namespace BigNumber
     public  class BigNumber
     {
         private List<int> _ListInt = new List<int>();
-        public BigNumber()
-        {
-        }
-        
-
-        public void Set(long longs)
+        public BigNumber(long longs)
         {
             int n = (int)longs;
             while ((n % 10) > 0)
@@ -24,6 +19,9 @@ namespace BigNumber
                 _ListInt[i] = num;
                 num = aux;
             }
+        }
+        public void Set(long longs)
+        {
         }
         public void Set(string s)
         {
@@ -55,7 +53,19 @@ namespace BigNumber
         }
         public static BigNumber Add(BigNumber big1, BigNumber big2)
         {
-            return big1;
+            BigNumber b3;
+            List<long> bignumber = new List<long>();
+            int num;
+           for(int i = 0; i < big1._ListInt.Count; i++)
+            {
+                for(int j = 0; i < big2._ListInt.Count; j++)
+                {
+                    num = big1._ListInt[i] + big2._ListInt[j];
+                    bignumber.Add(num);
+                    i++;
+                }
+            }
+            return b3;
         }
         public static BigNumber sub(BigNumber b1, BigNumber b2)
         {
