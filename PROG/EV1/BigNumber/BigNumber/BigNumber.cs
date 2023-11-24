@@ -51,10 +51,6 @@ namespace BigNumber
         {
             return _ListInt[index];
         }
-        public BigNumber clone()
-        {
-            //return new BigNumber();
-        }
         public static BigNumber Add(BigNumber big1, BigNumber big2)
         {
             BigNumber b3 = new BigNumber();
@@ -64,7 +60,6 @@ namespace BigNumber
                 for(int j = 0; i < big2._ListInt.Count; j++)
                 {
                     num = big1._ListInt[i] + big2._ListInt[j];
-                    bignumber.Add(num);
                     i++;
                 }
             }
