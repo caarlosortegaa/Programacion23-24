@@ -6,7 +6,7 @@
 
         public DominoPiece? ExtractPiece(int index)
         {
-            
+            // Javi:  index
              var p = _pieceList[index];
             _pieceList.RemoveAt(index);
             return _pieceList[index];
@@ -26,6 +26,7 @@
                 return;
             _pieceList.Add(piece);
         }
+        // Javi: Esta función directamente ni la has probado
         public DominoPiece? GetPieceAt(int index)
         {
            return GetPieceAt(index);
