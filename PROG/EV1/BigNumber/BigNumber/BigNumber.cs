@@ -12,6 +12,7 @@ namespace BigNumber
                 _ListInt.Add(n);
                 n = n / 10;
             }
+            // Javi: Esto yo lo hubiese puesto en una función
             for (int i = 0; i <= _ListInt.Count / 2; i++)
             {
                 int num = _ListInt.Count - 1 - i;
@@ -26,9 +27,11 @@ namespace BigNumber
         }
         public void Set(long longs)
         {
+            // Javi: vacío
         }
         public void Set(string s)
         {
+            // Javi: totalmente errónea
             for (int i = 0; i < s.Length; i++)
             {
                 _ListInt.Add(s[i]);
@@ -49,8 +52,10 @@ namespace BigNumber
         }
         public int GetDigitAt(int index)
         {
+            // Javi: control de index
             return _ListInt[index];
         }
+        // Javi: mal
         public static BigNumber Add(BigNumber big1, BigNumber big2)
         {
             BigNumber b3 = new BigNumber();
