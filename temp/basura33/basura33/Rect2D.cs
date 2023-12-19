@@ -37,7 +37,6 @@
 
         public override ShapeType GetShapeType()
         {
-
             return ShapeType.RECT2D;
         }
     }

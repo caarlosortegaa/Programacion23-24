@@ -2,7 +2,7 @@
 {
     public enum ShapeType
     {
-        POINT2D, SEGMENT2D, RECT2D,CIRCLE2D, POLILYNE2D
+        POINT2D, SEGMENT2D, RECT2D,CIRCLE2D, POLYLINE2D
     }
     public interface IShape
     {
