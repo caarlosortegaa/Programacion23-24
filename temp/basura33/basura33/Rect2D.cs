@@ -6,6 +6,8 @@
         private Point2D _max = new Point2D();
         public void SetMin(Point2D min)
         {
+            if (min == null)
+                return;
             _min = min;
         }
         public void SetMax(Point2D max)

@@ -2,7 +2,7 @@
 {
     public abstract class Shape : IShape
     {
-        protected Point2D _position;
+        protected Point2D _position = new Point2D();
         private string _name = "";
        
         public abstract double GetArea();
