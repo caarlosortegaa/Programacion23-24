@@ -27,7 +27,7 @@
             return _Shapes[index];
         }
 
-        public void RemoveShape(int index)
+        public void RemoveShapeAt(int index)
         {
             if( index < 0 || index >= _Shapes.Count)
                 return;

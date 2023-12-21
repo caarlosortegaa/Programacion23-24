@@ -5,7 +5,7 @@
         void AddShape(IShape shape);
         int GetShapeCount();
         IShape? GetShapeAt(int index);
-        void RemoveShape(int index);
+        void RemoveShapeAt(int index);
         double GetArea();
     }
 }

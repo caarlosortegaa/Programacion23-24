@@ -17,13 +17,8 @@
             return _position;
         }
 
-
         public abstract ShapeType GetShapeType();
-
-
         public abstract bool HasArea();
-        
-
         public void SetName(string name)
         {
             if (name == null)

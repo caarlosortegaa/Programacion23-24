@@ -2,8 +2,8 @@
 {
     public class Rect2D : ShapeWithArea
     {
-        private Point2D _min;
-        private Point2D _max;
+        private Point2D _min = new Point2D();
+        private Point2D _max = new Point2D();
         public void SetMin(Point2D min)
         {
             _min = min;
