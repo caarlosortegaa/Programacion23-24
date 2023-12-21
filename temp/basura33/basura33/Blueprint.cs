@@ -5,6 +5,8 @@
         private List<IShape> _Shapes = new List<IShape>();
         public void AddShape(IShape shape)
         {
+            if (shape == null)
+                return;
             _Shapes.Add(shape);
         }
 
