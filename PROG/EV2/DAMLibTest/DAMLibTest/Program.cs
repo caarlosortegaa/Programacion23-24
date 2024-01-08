@@ -6,7 +6,7 @@ namespace DAMLibTest
     {
         static void Main(string[] args)
         {
-            Stack s;
+            DAMLib.Stack<int> stack = new DAMLib.Stack<int>();
         }
     }
 }
