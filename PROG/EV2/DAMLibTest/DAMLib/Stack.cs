@@ -6,7 +6,10 @@
         public void Push(T newElement)
         {
             T[] newArray = new T[_stack.Length + 1];
-            Array.Copy(_stack, newArray, _stack.Length);
+            for(int i = 0; i < newArray.Length; i++)
+            {
+                newArray[i] = _stack[i];
+            }
             newArray[newArray.Length - 1] = newElement;
             _stack = newArray;
         }
