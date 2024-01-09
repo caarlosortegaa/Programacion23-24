@@ -3,7 +3,6 @@
     public class Stack <T>
     {
         private T[] _stack = new T[0];
-
         public void Push(T newElement)
         {
             T[] newArray = new T[_stack.Length + 1];
