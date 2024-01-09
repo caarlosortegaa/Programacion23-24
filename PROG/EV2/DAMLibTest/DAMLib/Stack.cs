@@ -18,8 +18,8 @@
         {
             if (IsEmpty())
                 return default(T);
-            T[] newStack = new T[_stack.Length - 2];
-            for (int i = 0; i < _stack.Length - 2; i++)
+            T[] newStack = new T[_stack.Length - 1];
+            for (int i = 0; i < _stack.Length - 1; i++)
             {
                 newStack[i] = _stack[i];
             }
