@@ -3,6 +3,7 @@
     public class Stack <T>
     {
         private T[] _stack = new T[0];
+       
         public void Push(T newElement)
         {
             T[] newArray = new T[_stack.Length + 1];
@@ -26,7 +27,9 @@
         }
         public T GetTop()
         {
-            return _stack[0];
+            if(IsEmpty())
+                return default(T);
+            return _stack[_stack.Length - 1];
         }
         public bool IsEmpty()
         {
