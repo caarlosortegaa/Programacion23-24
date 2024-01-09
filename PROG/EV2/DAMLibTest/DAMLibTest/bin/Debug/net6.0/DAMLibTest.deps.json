@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DAMLibTest/1.0.0": {
+        "dependencies": {
+          "DAMLib": "1.0.0"
+        },
+        "runtime": {
+          "DAMLibTest.dll": {}
+        }
+      },
+      "DAMLib/1.0.0": {
+        "runtime": {
+          "DAMLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DAMLibTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DAMLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -2,11 +2,14 @@
 {
     public class Stack <T>
     {
-        private T[] _stack;
+        private T[] _stack = new T[0];
 
         public void Push(T newElement)
         {
-
+            T[] newArray = new T[_stack.Length + 1];
+            Array.Copy(_stack, newArray, _stack.Length);
+            newArray[newArray.Length - 1] = newElement;
+            _stack = newArray;
         }
         public T Pop()
         {
@@ -29,12 +32,7 @@
         }
         public int GetCount()
         {
-            int count = 0;
-            for(int i = 0; i < _stack.Length; i++)
-            {
-                count++;
-            }
-            return count;
+            return _stack.Length;
         }
     }
 }
