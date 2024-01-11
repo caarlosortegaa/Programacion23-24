@@ -1,6 +1,6 @@
 ﻿namespace DAMLib
 {
-    public class Stack <T>
+    public class Stack<T>
     {
         private T[] _stack = new T[0];
        

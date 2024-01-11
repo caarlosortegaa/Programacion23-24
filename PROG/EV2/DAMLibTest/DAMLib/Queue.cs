@@ -1,28 +1,15 @@
 ﻿namespace DAMLib
 {
-    public class Queue <T>
+    public class Queue<T>
     {
         private T[] _queue = new T[0];
         public int Count => _queue.Length;
         public bool Empty => _queue.Length == 0;
-        public T First
-        {
-            get
-            {
-                if (Empty)
-                    return default(T);
-                return _queue[0];
-            }
-        }
-        public T Last
-        {
-            get
-            {
-                if (Empty)
-                    return default(T);
-                return (_queue[_queue.Length - 1]);
-            }
-        }
+#nullable disable
+        public T First => Empty ? default(T) : _queue[0];
+
+        public T Last => Empty ? default(T) : _queue[_queue.Length - 1];
+#nullable enable
 
         public void EnQueue(T element)
         {
@@ -36,6 +23,8 @@
         }
         public T Dequeue()
         {
+            if(Empty)
+                return default(T);
             T[] array = new T[_queue.Length - 1];
             T value = _queue[0];
             for(int i = 0; i < array.Length; i++)
