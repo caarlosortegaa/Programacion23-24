@@ -7,6 +7,8 @@
         public bool IsEmpty => _set.Length == 0;
         public void Add(T element)
         {
+            if (element == null)
+                return;
             T[] array = new T[_set.Length + 1];
             if (!Contains(element))
             {
@@ -15,24 +17,19 @@
                     array[i] = _set[i];
                 }
             }
-            array[array.Length - 1] = element;
+            array[_set.Length] = element;
             _set = array;
         }
         public void Remove(T element)
         {
             int indexValue = IndexOf(element);
-            if (indexValue != -1)
+            if (indexValue >= 0)
             {
                 T[] array = new T[_set.Length - 1];
-                for (int i = 0; i < _set.Length; i++)
-                {
-                    if(indexValue != i)
-                    {
-                        array[i] = _set[i];
-                    }
-                }
-
-                _set = array;
+                for (int i = 0; i < indexValue; i++)
+                    array[i] = _set[i];
+                for(int i = indexValue + 1; i < _set.Length; i++)
+                    _set = array;
             }
         }
         public bool Contains(T element)
