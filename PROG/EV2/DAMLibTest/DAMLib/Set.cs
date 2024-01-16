@@ -34,9 +34,7 @@
         }
         public bool Contains(T element)
         {
-            if(IndexOf(element) != -1) 
-                return true;
-            return false;
+            return IndexOf(element) >= 0; 
         }
         public int IndexOf(T element)
         {
