@@ -1,0 +1,15 @@
+C:\Users\carortgim\Desktop\Programacion23-24\temp\Basura2ev\Basura2ev\bin\Debug\net6.0\Basura2ev.exe
+C:\Users\carortgim\Desktop\Programacion23-24\temp\Basura2ev\Basura2ev\bin\Debug\net6.0\Basura2ev.deps.json
+C:\Users\carortgim\Desktop\Programacion23-24\temp\Basura2ev\Basura2ev\bin\Debug\net6.0\Basura2ev.runtimeconfig.json
+C:\Users\carortgim\Desktop\Programacion23-24\temp\Basura2ev\Basura2ev\bin\Debug\net6.0\Basura2ev.dll
+C:\Users\carortgim\Desktop\Programacion23-24\temp\Basura2ev\Basura2ev\bin\Debug\net6.0\Basura2ev.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\temp\Basura2ev\Basura2ev\obj\Debug\net6.0\Basura2ev.csproj.AssemblyReference.cache
+C:\Users\carortgim\Desktop\Programacion23-24\temp\Basura2ev\Basura2ev\obj\Debug\net6.0\Basura2ev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carortgim\Desktop\Programacion23-24\temp\Basura2ev\Basura2ev\obj\Debug\net6.0\Basura2ev.AssemblyInfoInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\temp\Basura2ev\Basura2ev\obj\Debug\net6.0\Basura2ev.AssemblyInfo.cs
+C:\Users\carortgim\Desktop\Programacion23-24\temp\Basura2ev\Basura2ev\obj\Debug\net6.0\Basura2ev.csproj.CoreCompileInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\temp\Basura2ev\Basura2ev\obj\Debug\net6.0\Basura2ev.dll
+C:\Users\carortgim\Desktop\Programacion23-24\temp\Basura2ev\Basura2ev\obj\Debug\net6.0\refint\Basura2ev.dll
+C:\Users\carortgim\Desktop\Programacion23-24\temp\Basura2ev\Basura2ev\obj\Debug\net6.0\Basura2ev.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\temp\Basura2ev\Basura2ev\obj\Debug\net6.0\Basura2ev.genruntimeconfig.cache
+C:\Users\carortgim\Desktop\Programacion23-24\temp\Basura2ev\Basura2ev\obj\Debug\net6.0\ref\Basura2ev.dll
