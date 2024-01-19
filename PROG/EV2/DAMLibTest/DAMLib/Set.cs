@@ -1,6 +1,6 @@
 ﻿namespace DAMLib
 {
-    public class Set<T>
+    public class Set<T> : Iset<T>
     {
         T[] _set = new T[0];
         public int Count => _set.Length;
@@ -36,7 +36,7 @@
         {
             return IndexOf(element) >= 0; 
         }
-        public int IndexOf(T element)
+        private int IndexOf(T element)
         {
             for (int i = 0; i < _set.Length; i++)
             {
@@ -44,6 +44,10 @@
                     return i;
             }
             return -1;
+        }
+        public void clear()
+        {
+            _set = new T[0];
         }
     }
 }

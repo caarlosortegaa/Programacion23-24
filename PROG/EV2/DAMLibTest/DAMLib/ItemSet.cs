@@ -1,8 +1,9 @@
 ﻿using DAMLib;
+using System.Collections.Generic;
 
 namespace DamLib
 {
-    public class OrderedItemSet<T>
+    public class ItemSet<T> : Iset<T>
     {
         private class Item
         {
@@ -19,6 +20,7 @@ namespace DamLib
         public int Count => _items.Length;
         public bool Empty => _items.Length == 0;
 
+        public bool IsEmpty => throw new NotImplementedException();
 
         public void Add(T element)
         {
@@ -66,21 +68,10 @@ namespace DamLib
         {
             return Indexof(element) >= 0;
         }
-        private static void Sort(Item[] item)
-        {
-            for(int i = 0; i < item.Length; i++)
-            {
-                for(int j = i + 1; j < item.Length; j++)
-                {
-                    if (item[i].hash > item[j].hash)
-                    {
-                        Item aux = item[i];
-                        item[i] = item[j];
-                        item[j] = aux;
 
-                    }
-                }
-            }
+        public void clear()
+        {
+            _items = new Item[0];
         }
     }
 }
