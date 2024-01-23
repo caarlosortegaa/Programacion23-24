@@ -68,7 +68,7 @@ namespace DamLib
         }
         private static void Sort(Item[] item)
         {
-            for(int i = 0; i < item.Length; i++)
+            for(int i = 0; i < item.Length - 1; i++)
             {
                 for(int j = i + 1; j < item.Length; j++)
                 {

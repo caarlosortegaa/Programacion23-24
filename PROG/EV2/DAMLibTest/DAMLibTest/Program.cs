@@ -11,11 +11,11 @@ namespace DAMLibTest
         {
             //Set<string> set = new Set<string>();
             //UnitTest.Test1(set);
-            DAMLib.Dictionary<string, string> dic = new DAMLib.Dictionary<string, string>();
-            dic.Add("juan", "fede");
-            dic.Add("b", "j");
-            dic.Add("t", "l");
-            dic.Add("aua", "ueueu");
+            DAMLib.Dictionary<string, int> dic = new DAMLib.Dictionary<string, int>();
+            dic.Add("juan", 2);
+            dic.Add("b", 4);
+            dic.Add("t", 6);
+            dic.Add("aua", 8);
             dic.Remove("aua");
             //ItemSet<string> item = new ItemSet<string>();
             //item.Add("juan");
