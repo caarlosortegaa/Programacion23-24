@@ -19,16 +19,19 @@
         public int count => _items.Length;
         public bool IsEmpty => _items.Length == 0;
         
-        public void Add(K key, V value)
+        public bool Add(K key, V value)
         {
-            item[] newitems = new item[_items.Length + 1];
+            if (key == null || contains(key))
+                return false;
+            item[] newItems = new item[_items.Length + 1];
             item newitem = new item(key, value);
             for(int i = 0; i < _items.Length; i++)
             {
-                newitems[i] = _items[i];
+                newItems[i] = _items[i];
             }
-            newitems[_items.Length] = newitem;
-            _items = newitems;
+            newItems[_items.Length] = newitem;
+            _items = newItems;
+            return true;
 
             
         }
@@ -40,7 +43,7 @@
                 item[] newItems = new item[_items.Length - 1];
                 for (int i = 0; i < indexKey; i++)
                     newItems[i] = _items[i];
-                for (int i = indexKey - 1; i < _items.Length - 1; i++)
+                for (int i = indexKey - 1; i < _items.Length; i++)
                     newItems[i] = _items[i];
                 _items = newItems;
                 

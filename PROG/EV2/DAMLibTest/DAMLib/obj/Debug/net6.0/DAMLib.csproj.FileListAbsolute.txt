@@ -10,3 +10,15 @@ C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\obj\Debug\
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\obj\Debug\net6.0\refint\DAMLib.dll
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\obj\Debug\net6.0\DAMLib.pdb
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\obj\Debug\net6.0\ref\DAMLib.dll
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\bin\Debug\net6.0\DAMLib.deps.json
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\bin\Debug\net6.0\DAMLib.dll
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\bin\Debug\net6.0\DAMLib.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\obj\Debug\net6.0\DAMLib.csproj.AssemblyReference.cache
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\obj\Debug\net6.0\DAMLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\obj\Debug\net6.0\DAMLib.AssemblyInfoInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\obj\Debug\net6.0\DAMLib.AssemblyInfo.cs
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\obj\Debug\net6.0\DAMLib.csproj.CoreCompileInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\obj\Debug\net6.0\DAMLib.dll
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\obj\Debug\net6.0\refint\DAMLib.dll
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\obj\Debug\net6.0\DAMLib.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\DAMLibTest\DAMLib\obj\Debug\net6.0\ref\DAMLib.dll
