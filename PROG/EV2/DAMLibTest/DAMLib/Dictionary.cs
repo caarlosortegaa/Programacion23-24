@@ -21,7 +21,7 @@
         
         public bool Add(K key, V value)
         {
-            if (key == null || contains(key))
+            if (key == null || value == null ||contains(key))
                 return false;
             item[] newItems = new item[_items.Length + 1];
             item newitem = new item(key, value);
@@ -31,9 +31,7 @@
             }
             newItems[_items.Length] = newitem;
             _items = newItems;
-            return true;
-
-            
+            return true; 
         }
         public void Remove(K key)
         {
