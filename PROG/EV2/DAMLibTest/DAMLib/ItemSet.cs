@@ -18,9 +18,7 @@ namespace DamLib
         }
         private Item[] _items = new Item[0];
         public int Count => _items.Length;
-        public bool Empty => _items.Length == 0;
-
-        public bool IsEmpty => throw new NotImplementedException();
+        public bool IsEmpty => _items.Length == 0;
 
         public void Add(T element)
         {
@@ -46,7 +44,7 @@ namespace DamLib
                 Item[] aux = new Item[_items.Length - 1];
                 for (int i = 0; i < indexelement; i++)
                     aux[i] = _items[i];
-                for (int i = indexelement - 1; i < _items.Length; i++)
+                for (int i = indexelement - 1; i < _items.Length - 1; i++)
                     aux[i] = _items[i];
                 _items = aux;
             }
