@@ -16,12 +16,17 @@ namespace DAMLibTest
             dic.Add("b", 4);
             dic.Add("t", 6);
             dic.Add("aua", 8);
-            dic.Remove("aua");
+            //dic.Remove("aua");
             //ItemSet<string> item = new ItemSet<string>();
             //item.Add("juan");
             //item.Add("kiki");
             //item.Add("fol");
             //item.Remove("fol");
+            var filter = dic.Filter((key, value) =>
+            {
+                return key.Contains("a");
+            }
+            );
 
         }
     }
