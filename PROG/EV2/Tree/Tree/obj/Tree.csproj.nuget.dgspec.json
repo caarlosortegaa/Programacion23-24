@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\temp\\basura33\\basura33\\basura33.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\PROG\\EV2\\Tree\\Tree\\Tree.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\temp\\basura33\\basura33\\basura33.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\PROG\\EV2\\Tree\\Tree\\Tree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\temp\\basura33\\basura33\\basura33.csproj",
-        "projectName": "basura33",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\temp\\basura33\\basura33\\basura33.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\PROG\\EV2\\Tree\\Tree\\Tree.csproj",
+        "projectName": "Tree",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\PROG\\EV2\\Tree\\Tree\\Tree.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\temp\\basura33\\basura33\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\PROG\\EV2\\Tree\\Tree\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
