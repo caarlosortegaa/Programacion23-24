@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carortgim\\.nuget\\packages\\": {},
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV2\\DAMLibTest\\DAMLibTest\\DAMLibTest.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\PROG\\EV2\\DAMLibTest\\DAMLibTest\\DAMLibTest.csproj",
       "projectName": "DAMLibTest",
-      "projectPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV2\\DAMLibTest\\DAMLibTest\\DAMLibTest.csproj",
-      "packagesPath": "C:\\Users\\carortgim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV2\\DAMLibTest\\DAMLibTest\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\PROG\\EV2\\DAMLibTest\\DAMLibTest\\DAMLibTest.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\PROG\\EV2\\DAMLibTest\\DAMLibTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\carortgim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -52,16 +52,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Users\\carortgim\\Desktop\\nugets": {},
+        "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV2\\DAMLibTest\\DAMLib\\DAMLib.csproj": {
-              "projectPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV2\\DAMLibTest\\DAMLib\\DAMLib.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\PROG\\EV2\\DAMLibTest\\DAMLib\\DAMLib.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\PROG\\EV2\\DAMLibTest\\DAMLib\\DAMLib.csproj"
             }
           }
         }
@@ -91,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
