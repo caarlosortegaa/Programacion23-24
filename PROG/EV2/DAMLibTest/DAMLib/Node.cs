@@ -23,32 +23,52 @@
                 return 0;
             return _parent.GetLevel() + 1;
         }
-        public Node<T> GetRooT()
-        {
+        //public Node<T> GetRooT()
+        //{
 
-        }
+        //}
         public Node<T>? GetChildrenAt(int index)
         {
             if (index < 0 || index >= _children.Count)
                 return null;
             for (int i = 0; i < _children.Count; i++)
             {
-                if (index == i)
-                    return _children[i];
+                if()
+                 return _children[i];
             }
             return null;
         }
         public void UnLink()
         {
             if(_parent != null)
-                _parent._children.Remove(this);
+            _parent._children.Remove(this);
+            _parent = null;
         }
         
         public void AddChild(Node<T> child)
         {
-            if (child == null)
+            if (child == null || child == this)
                 return;
+            child.UnLink();
+            child._parent = this;
             _children.Add(child);
+        }
+        public void SetParent(Node<T> parent)
+        {
+
+        }
+        public bool ContainsParent(Node<T> parent)
+        {
+            if(parent == null)
+            return false;
+            for(int i = 0; i < _children.Count;i++)
+            {
+                if(_children[i] == parent)
+                    return true;
+                if (_children[i].ContainsParent(parent))
+                    return true;
+            }
+            return false;
         }
     }
 }
