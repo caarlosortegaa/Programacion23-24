@@ -4,8 +4,8 @@
     {
         public T Content { get; set; }
         private List<Node<T>> _children;
-        private Node<T>? _parent { get; set; }
-        public bool IsRoot => GetLevel() == 0;
+        private Node<T>? _parent { get; set;}
+        public bool IsRoot => _parent == null;
         public bool IsLeaf => _children.Count == 0;
         public int ChildCount => _children.Count;
         public int Level => GetLevel();
@@ -23,20 +23,17 @@
                 return 0;
             return _parent.GetLevel() + 1;
         }
-        //public Node<T> GetRooT()
-        //{
-
-        //}
+        public Node<T> GetRooT()
+        {
+            if (IsRoot)
+                return this;
+            return _parent.GetRooT();
+        }
         public Node<T>? GetChildrenAt(int index)
         {
             if (index < 0 || index >= _children.Count)
                 return null;
-            for (int i = 0; i < _children.Count; i++)
-            {
-                if()
-                 return _children[i];
-            }
-            return null;
+           return _children[index]; 
         }
         public void UnLink()
         {
