@@ -28,6 +28,9 @@ namespace DAMLibTest
             }
             );
 
+            Node<string> juan = new Node<string>("Juan");
+            
+
         }
     }
 }
