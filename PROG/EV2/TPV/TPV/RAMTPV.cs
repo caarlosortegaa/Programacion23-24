@@ -17,17 +17,29 @@
 
         public Product? GetProductWithId(long id)
         {
-            throw new NotImplementedException();
+            _products.TryGetValue(id, out var product);
+            return product;
         }
 
         public void RemoveProductWithID(long id)
         {
-            throw new NotImplementedException();
+            _products.Remove(id);
         }
 
-        public void UpdateProductWithId(long id, Product product)
+        public void UpdateProductWithId(long id, Product updateProduct)
         {
-            throw new NotImplementedException();
+            if(_products.ContainsKey(id))
+            {
+                var cloneProduct = updateProduct.Clone();
+                _products[id] = cloneProduct;
+            }
+            else
+            {
+                throw new Exception("$\"Producto con id no encontrado\"");
+            }
         }
+        public bool ContainsWithId(long id) =>  _products.ContainsKey(id);
+        
+        public bool ContainsWithProduct(Product product) => _products.ContainsValue(product);
     }
 }
