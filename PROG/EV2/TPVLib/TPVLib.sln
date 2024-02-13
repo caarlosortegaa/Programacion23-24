@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPVLib", "TPVLib\TPVLib.csproj", "{3B862898-2CB7-4E01-86A0-A3E3D01C8D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPV", "TPV\TPV.csproj", "{9E21E04F-ECE6-429F-8268-FB29995F147B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B862898-2CB7-4E01-86A0-A3E3D01C8D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B862898-2CB7-4E01-86A0-A3E3D01C8D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B862898-2CB7-4E01-86A0-A3E3D01C8D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B862898-2CB7-4E01-86A0-A3E3D01C8D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E21E04F-ECE6-429F-8268-FB29995F147B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E21E04F-ECE6-429F-8268-FB29995F147B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E21E04F-ECE6-429F-8268-FB29995F147B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E21E04F-ECE6-429F-8268-FB29995F147B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15D4975F-C10F-49D7-BB29-6639A8BB7ED7}
+	EndGlobalSection
+EndGlobal
