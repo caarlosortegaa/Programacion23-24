@@ -1,7 +1,16 @@
 ﻿using TPVLib;
 namespace TPV
 {
-    internal class Controllers
+    public class Controllers
     {
+        public void RunMainMenu(ITPV tpv)
+        {
+
+        }
+        public void RunProdcutsMenu(ITPV tpv)
+        {
+
+        }
+
     }
 }

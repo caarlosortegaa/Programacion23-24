@@ -1,6 +1,7 @@
-﻿namespace TPV
+﻿using TPVLib;
+namespace TPV
 {
-    internal class UI
+    public class UI
     {
     }
 }
