@@ -2,6 +2,10 @@
 {
     public interface ITPV
     {
+        public RAMTPV CreateNewTPV()
+        {
+            return new RAMTPV();
+        }
         int ProductCount{  get; }
         long AddProduct(Product product);
         void RemoveProductWithID(long id);

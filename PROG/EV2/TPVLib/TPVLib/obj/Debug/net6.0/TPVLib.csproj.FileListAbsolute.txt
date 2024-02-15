@@ -1,0 +1,11 @@
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\TPVLib\TPVLib\bin\Debug\net6.0\TPVLib.deps.json
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\TPVLib\TPVLib\bin\Debug\net6.0\TPVLib.dll
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\TPVLib\TPVLib\bin\Debug\net6.0\TPVLib.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\TPVLib\TPVLib\obj\Debug\net6.0\TPVLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\TPVLib\TPVLib\obj\Debug\net6.0\TPVLib.AssemblyInfoInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\TPVLib\TPVLib\obj\Debug\net6.0\TPVLib.AssemblyInfo.cs
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\TPVLib\TPVLib\obj\Debug\net6.0\TPVLib.csproj.CoreCompileInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\TPVLib\TPVLib\obj\Debug\net6.0\TPVLib.dll
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\TPVLib\TPVLib\obj\Debug\net6.0\refint\TPVLib.dll
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\TPVLib\TPVLib\obj\Debug\net6.0\TPVLib.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV2\TPVLib\TPVLib\obj\Debug\net6.0\ref\TPVLib.dll
