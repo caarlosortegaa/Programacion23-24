@@ -15,12 +15,18 @@ namespace TPV
                 return 0;
             if(Console.ReadLine() == "1")
                 return 1;
-            return 69;
+            return 0;
         }
         public static void MenuProducts(ITPV tpv)
         {
-                Console.WriteLine("Pulsa 0 para salir");
-                Console.WriteLine("Pulsa 1 para añadir un producto");   
+            Console.WriteLine("Pulsa 0 para salir");
+            Console.WriteLine("Pulsa 1 para añadir un producto");
         }
+        public static void MenuAddName(ITPV tpv)
+        {
+            Console.Clear();
+            Console.WriteLine("Añade el nombre del producto");
+        }
+       
     }
 }

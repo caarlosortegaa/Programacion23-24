@@ -10,26 +10,49 @@ namespace TPV
             while (IsRunning)
             {
                 var options = UI.ReadOption();
-                if (options == 0)
-                    IsRunning = false;
-                if (options == 1)
-                    UI.MenuProducts(tpv);
+                
+               switch(options)
+               {
+                    case 0: 
+                        IsRunning = false;
+                        break;
+                    case 1:
+                        UI.MenuProducts(tpv); 
+                        Controllers.RunMainMenu(tpv);
+                        break;
+               }
             }
 
         }
     
-        public void RunProdcutsMenu(ITPV tpv)
+        public static void RunProdcutsMenu(ITPV tpv)
         {
             bool IsRunning = true;
             while (IsRunning)
             {
                 var options = UI.ReadOption();
-                if(options == 0)
-                    IsRunning = false;
-                if (options == 1)
+                switch (options)
+                {
+                    case 0:
+                        IsRunning = false;
+                        break;
+                    case 1:
+                        UI.MenuAddProduct(tpv);
 
-                    
+                        break;
+                }    
             }
+        }
+        public static Product MenuAddProduct(ITPV tpv)
+        {
+            Product product = new Product();
+            UI.MenuAddProduct(tpv);
+            product.Name = Console.ReadLine();
+
+
+
+            return product;
+            
         }
     }
 
