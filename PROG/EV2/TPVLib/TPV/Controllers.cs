@@ -1,4 +1,3 @@
-using System;
 using TPVLib;
 namespace TPV
 {
@@ -10,24 +9,45 @@ namespace TPV
             while (IsRunning)
             {
                 var options = UI.ReadOption();
-                if (options == 0)
+                if (options == 0)            
                     IsRunning = false;
                 if (options == 1)
+                {
+                    IsRunning = false;
+                    Console.Clear();
                     UI.MenuProducts(tpv);
+                }
             }
 
         }
     
-        public void RunProdcutsMenu(ITPV tpv)
+        public static void RunProdcutsMenu(ITPV tpv, Product product)
         {
             bool IsRunning = true;
             while (IsRunning)
             {
-                var options = UI.ReadOption();
-                if(options == 0)
+                var option = UI.ReadOption();
+                if (option == 0)
+                {
                     IsRunning = false;
-                if (options == 1)
+                    Console.Clear();
+                    Console.WriteLine("Has Salido del menu de productos.");
+                    UI.MainMenu(tpv);
+                    Controllers.RunMainMenu(tpv);
+                }
                     
+                if (option == 1)
+                {
+                    tpv.AddProduct(product);
+                    Console.Clear();
+                    Console.WriteLine("Has añadido el producto correctamente");
+                }
+                if(option == 2)
+                {
+                    tpv.RemoveProductWithID(product.id);
+                    Controllers.RunProdcutsMenu(tpv, product);
+                }
+
             }
         }
     }

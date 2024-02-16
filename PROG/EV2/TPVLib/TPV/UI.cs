@@ -11,9 +11,10 @@ namespace TPV
         
         public static int ReadOption()
         {
-            if(Console.ReadLine() == "0")
+            var leer = Console.ReadLine();
+            if (leer == "0")
                 return 0;
-            if(Console.ReadLine() == "1")
+            if(leer == "1")
                 return 1;
             return 69;
         }
