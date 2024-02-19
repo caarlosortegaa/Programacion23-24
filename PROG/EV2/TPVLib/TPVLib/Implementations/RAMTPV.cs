@@ -5,6 +5,7 @@
         private Dictionary<long, Product> _products = new Dictionary<long, Product>();
         public int ProductCount => _products.Count;
         private long _CurrentGeneratingId = 1;
+        IDatabase _database;
 
         public long AddProduct(Product product)
         {
@@ -34,5 +35,10 @@
         public void UpdateProductWithId(long id, Product updateProduct)
         {       
         }
+
+        //public long AddTicket(Ticket ticket)
+        //{
+            
+        //}
     }
 }

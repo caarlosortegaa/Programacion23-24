@@ -42,5 +42,10 @@ namespace TPV
         {
             Console.WriteLine("Añade cuantos productos quedan");
         }
+        public static void MenuRemoveProduct()
+        {
+            Console.WriteLine("Pulsa 0 para salir");
+            Console.WriteLine("Pulsa 1 Para Eliminar un producto");
+        }
     }
 }

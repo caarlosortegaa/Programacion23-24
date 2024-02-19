@@ -54,8 +54,14 @@ namespace TPV
             product.Price = Convert.ToInt32(Console.ReadLine());
             UI.MenuAddStock();
             product.Stock = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Has añadido el producto");
+            tpv.AddProduct(product);
             return product;
         }
+        //private static Product? RunRemoveProductWithId(ITPV tpv)
+        //{
+            
+        //}
 
 
     }
