@@ -36,9 +36,9 @@
         {       
         }
 
-        //public long AddTicket(Ticket ticket)
-        //{
-            
-        //}
+        public long AddTicket(Ticket ticket)
+        {
+            return ticket.header.id;
+        }
     }
 }

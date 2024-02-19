@@ -2,7 +2,9 @@
 {
     public class TicketHeader
     {
-
+       public string CodesBar {  get; set; }
+       public long id { get; set; }
+       public DateTime date { get; set; }
     }
     public class TicketBody
     {
@@ -15,8 +17,8 @@
     }
     public class Ticket
     {
-         TicketHeader header;
-         TicketBody body;
+         public TicketHeader header;
+         public TicketBody body;
 
     }
 }
