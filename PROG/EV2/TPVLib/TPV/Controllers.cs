@@ -8,49 +8,56 @@ namespace TPV
             bool IsRunning = true;
             while (IsRunning)
             {
+                UI.MainMenu();
                 var options = UI.ReadOption();
-                if (options == 0)            
-                    IsRunning = false;
-                if (options == 1)
+                switch (options)
                 {
-                    IsRunning = false;
-                    Console.Clear();
-                    UI.MenuProducts(tpv);
+                    case 0:
+                        IsRunning = false;
+                        break;
+                    case 1:
+                        UI.MenuProducts();
+                        Controllers.RunMenuProducts(tpv);
+                        break;
                 }
             }
-
         }
-    
-        public static void RunProdcutsMenu(ITPV tpv, Product product)
+        public static void RunMenuProducts(ITPV tpv)
         {
             bool IsRunning = true;
             while (IsRunning)
             {
-                var option = UI.ReadOption();
-                if (option == 0)
+                var options = UI.ReadOption();
+                switch (options)
                 {
-                    IsRunning = false;
-                    Console.Clear();
-                    Console.WriteLine("Has Salido del menu de productos.");
-                    UI.MainMenu(tpv);
-                    Controllers.RunMainMenu(tpv);
+                    case 0:
+                        IsRunning = false;
+                        break;
+                    case 1:
+                        Controllers.RunMenuAddProduct(tpv);
+                        break;
+                    case 2:
+                        //Controllers.RunMenuRemoveProducts(tpv);
+                        break;
                 }
-                    
-                if (option == 1)
-                {
-                    tpv.AddProduct(product);
-                    Console.Clear();
-                    Console.WriteLine("Has añadido el producto correctamente");
-                }
-                if(option == 2)
-                {
-                    tpv.RemoveProductWithID(product.id);
-                    Controllers.RunProdcutsMenu(tpv, product);
-                }
-
             }
         }
-    }
 
+        private static Product RunMenuAddProduct(ITPV tpv)
+        {
+            Product product = new Product();
+            UI.MenuAddProduct();
+            product.Name = Console.ReadLine();
+            UI.MenuAddDescription();
+            product.Description = Console.ReadLine();
+            UI.MenuAddPrice();
+            product.Price = Convert.ToInt32(Console.ReadLine());
+            UI.MenuAddStock();
+            product.Stock = Convert.ToInt32(Console.ReadLine());
+            return product;
+        }
+
+
+    }
 }
 
