@@ -19,6 +19,5 @@
     {
          public TicketHeader header;
          public TicketBody body;
-
     }
 }

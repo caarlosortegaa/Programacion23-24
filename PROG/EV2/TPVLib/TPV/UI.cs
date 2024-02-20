@@ -9,19 +9,12 @@ namespace TPV
                 Console.WriteLine("pulsa 1 para el menu de prodcuctos");
         }
         
-        public static int ReadOption()
-        {
-            var leer = Console.ReadLine();
-            if (leer == "0")
-                return 0;
-            if(leer == "1")
-                return 1;
-            return 0;
-        }
+        
         public static void MenuProducts()
         {
                 Console.WriteLine("Pulsa 0 para salir");
-                Console.WriteLine("Pulsa 1 para añadir un producto");   
+                Console.WriteLine("Pulsa 1 para añadir un producto");
+                Console.WriteLine("Pulsa 2 Para eliminar un producto");
         }
         public static void MenuAddProduct()
         {
@@ -44,8 +37,8 @@ namespace TPV
         }
         public static void MenuRemoveProduct()
         {
-            Console.WriteLine("Pulsa 0 para salir");
-            Console.WriteLine("Pulsa 1 Para Eliminar un producto");
+            Console.WriteLine("Introduce el id que quieres borrar");
         }
+
     }
 }

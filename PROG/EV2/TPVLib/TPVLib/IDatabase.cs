@@ -12,6 +12,8 @@
                 RemoveProductWithID(product.id);
         }
         long AddTicket(TicketHeader ticket);
+        void AddLineWithId(long id, TicketLine line);
+
 
     }
 }

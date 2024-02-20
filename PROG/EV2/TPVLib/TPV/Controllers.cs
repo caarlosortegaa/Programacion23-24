@@ -9,7 +9,7 @@ namespace TPV
             while (IsRunning)
             {
                 UI.MainMenu();
-                var options = UI.ReadOption();
+                var options = Convert.ToInt32(Console.ReadLine());
                 switch (options)
                 {
                     case 0:
@@ -27,7 +27,7 @@ namespace TPV
             bool IsRunning = true;
             while (IsRunning)
             {
-                var options = UI.ReadOption();
+                var options = Convert.ToInt32(Console.ReadLine());
                 switch (options)
                 {
                     case 0:
@@ -37,13 +37,13 @@ namespace TPV
                         Controllers.RunMenuAddProduct(tpv);
                         break;
                     case 2:
-                        //Controllers.RunMenuRemoveProducts(tpv);
+                        Controllers.RunRemoveProductWithId(tpv);
                         break;
                 }
             }
         }
 
-        private static Product RunMenuAddProduct(ITPV tpv)
+        private static void RunMenuAddProduct(ITPV tpv)
         {
             Product product = new Product();
             UI.MenuAddProduct();
@@ -56,12 +56,13 @@ namespace TPV
             product.Stock = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Has añadido el producto");
             tpv.AddProduct(product);
-            return product;
         }
-        //private static Product? RunRemoveProductWithId(ITPV tpv)
-        //{
-            
-        //}
+        private static void RunRemoveProductWithId(ITPV tpv)
+        {
+            UI.MenuRemoveProduct();
+            var productId = Convert.ToInt64(Console.ReadLine());
+            tpv.RemoveProductWithID(productId);
+        }
 
 
     }
