@@ -4,42 +4,41 @@
     {
         private Dictionary<long, Product> _products = new Dictionary<long, Product>();
         public int ProductCount => _products.Count;
-        private long _CurrentGeneratingId = 1;
         IDatabase _database;
+        public RAMTPV(IDatabase database)
+        {
+            _database = database;
+        }
+
+        public RAMTPV()
+        {
+
+        }
 
         public long AddProduct(Product product)
         {
-            var cloneProduct = product.Clone();
-            cloneProduct.id = _CurrentGeneratingId++;
-            _products.Add(product.id, cloneProduct);
-            return cloneProduct.id;
+            return _database.AddProduct(product);
             
         }
 
         public Product? GetProductWithId(long id)
         {
-            Product? product;
-            if(_products.TryGetValue(id, out product))
-            {
-                return product.Clone();
-            }
-            return null;
+            return _database.GetProductWithId(id);
         }
 
         public void RemoveProductWithID(long id)
         {
-            if(_products.ContainsKey(id))
-            _products.Remove(id);
+            _database.RemoveProductWithID(id);
         }
 
         public void UpdateProductWithId(long id, Product updateProduct)
         {       
-
+            _database.UpdateProductWithId(id, updateProduct);
         }
 
-        public long AddTicket(Ticket ticket)
-        {
-            return ticket.header.id;
-        }
+        //public long AddTicket(Ticket ticket)
+        //{
+            
+        //}
     }
 }

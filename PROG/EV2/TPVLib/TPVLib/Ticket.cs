@@ -2,9 +2,19 @@
 {
     public class TicketHeader
     {
-       public string CodesBar {  get; set; }
+       public string? CodesBar {  get; set; }
        public long id { get; set; }
        public DateTime date { get; set; }
+
+        public TicketHeader Clone()
+        {
+            TicketHeader header = new TicketHeader();
+            header.CodesBar = CodesBar;
+            header.id = id;
+            header.date = date;
+            return header;
+            
+        }
     }
     public class TicketBody
     {
@@ -17,7 +27,15 @@
     }
     public class Ticket
     {
-         public TicketHeader header;
-         public TicketBody body;
+         public TicketHeader header = new TicketHeader();
+         public TicketBody body = new TicketBody();
+
+        public Ticket Clone()
+        {
+            Ticket ticket = new Ticket();
+            ticket.header = header;
+            ticket.body = body;
+            return ticket;
+        }
     }
 }

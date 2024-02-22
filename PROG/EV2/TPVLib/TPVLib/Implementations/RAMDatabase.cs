@@ -1,4 +1,5 @@
-﻿namespace TPVLib.Implementations
+﻿
+namespace TPVLib.Implementations
 {
     public class RAMDatabase : IDatabase
     {
@@ -10,27 +11,41 @@
 
         public void AddLineWithId(long id, TicketLine line)
         {
-            throw new NotImplementedException();
+
         }
 
         public long AddProduct(Product product)
         {
-            throw new NotImplementedException();
+            var cloneProduct = product.Clone();
+            cloneProduct.id = _CurrentGeneratingId++;
+            _products.Add(product.id, cloneProduct);
+            return cloneProduct.id;
         }
 
-        public long AddTicket(TicketHeader ticket)
+        public long AddTicket(TicketHeader header)
         {
-            throw new NotImplementedException();
+            Ticket newTicket = new Ticket();
+            var cloneTicket = header.Clone();
+            cloneTicket.id = _CurrentTicketGeneratingId++;
+            newTicket.header = cloneTicket;
+            _tickets.Add(header.id, newTicket);
+            return cloneTicket.id;
         }
 
         public Product? GetProductWithId(long id)
         {
-            throw new NotImplementedException();
+            Product? product;
+            if (_products.TryGetValue(id, out product))
+            {
+                return product.Clone();
+            }
+            return null;
         }
 
         public void RemoveProductWithID(long id)
         {
-            throw new NotImplementedException();
+            if (_products.ContainsKey(id))
+                _products.Remove(id);
         }
 
         public void UpdateProductWithId(long id, Product product)
