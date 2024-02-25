@@ -36,9 +36,9 @@
             _database.UpdateProductWithId(id, updateProduct);
         }
 
-        //public long AddTicket(Ticket ticket)
-        //{
-            
-        //}
+        public long AddTicket(Ticket ticket)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
