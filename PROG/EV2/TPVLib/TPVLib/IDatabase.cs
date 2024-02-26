@@ -13,6 +13,9 @@
         }
         long AddTicket(TicketHeader ticket);
         void AddLineWithId(long id, TicketLine line);
+        void RemoveTicketLine(TicketLine ticketLine);
+        long AddTicketHead(TicketHeader header);
+        void RemoveTicketHead(TicketHeader header);
 
 
     }

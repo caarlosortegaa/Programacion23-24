@@ -11,7 +11,9 @@ namespace TPVLib.Implementations
 
         public void AddLineWithId(long id, TicketLine line)
         {
-
+            if (id < 0)
+                throw new ArgumentException("el id no existe");
+            
         }
 
         public long AddProduct(Product product)
@@ -20,6 +22,17 @@ namespace TPVLib.Implementations
             cloneProduct.id = _CurrentGeneratingId++;
             _products.Add(product.id, cloneProduct);
             return cloneProduct.id;
+        }
+        public void UpdateProductWithId(long id, Product product)
+        {
+            if (_products.ContainsKey(id))
+            {
+                Product productExist = _products[id];
+            }
+            else
+            {
+                throw new Exception("No se encontró ningun producto con ese id");
+            }
         }
 
         public long AddTicket(TicketHeader header)
@@ -30,6 +43,11 @@ namespace TPVLib.Implementations
             newTicket.header = cloneTicket;
             _tickets.Add(header.id, newTicket);
             return cloneTicket.id;
+        }
+
+        public long AddTicketHead(TicketHeader header)
+        {
+            throw new NotImplementedException();
         }
 
         public Product? GetProductWithId(long id)
@@ -48,7 +66,12 @@ namespace TPVLib.Implementations
                 _products.Remove(id);
         }
 
-        public void UpdateProductWithId(long id, Product product)
+        public void RemoveTicketHead(TicketHeader header)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RemoveTicketLine(TicketLine ticketLine)
         {
             throw new NotImplementedException();
         }
