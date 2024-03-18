@@ -13,13 +13,12 @@ namespace Prueba3
         }
         public void AddPoint(Point2D point)
         {
-            Point2D[] newPoints = new Point2D[_points.Length -1];
+            Point2D[] newPoints = new Point2D[_points.Length + 1];
             for(int i = 0 ; i < _points.Length; i++)
             {
                 _points[i] = newPoints[i];
             }
-            // Javi: EIN!?!?!?!?!?!?!?
-            point = newPoints[newPoints.Length -1];
+            newPoints[newPoints.Length -1] = point;
             _points = newPoints;
         }
         public Point2D? GetPoint2D(int index)
@@ -43,7 +42,7 @@ namespace Prueba3
 
         public override Point2D GetCenter()
         {
-          throw new NotImplementedException();
+          
         }
 
         public override double GetPerimeter()
