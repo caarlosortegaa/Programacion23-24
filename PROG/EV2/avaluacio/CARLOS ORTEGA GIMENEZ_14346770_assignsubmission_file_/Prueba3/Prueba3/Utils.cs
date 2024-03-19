@@ -8,7 +8,6 @@ namespace Prueba3
         {
             double X = p1.X - p2.X;
             double Y = p1.Y - p2.Y;
-            // Javi: Compila, pero esto no te lo van a admitir nunca
             double distance = 0;
             return distance = Math.PI * (X * 2) * (Y * 2);
         }

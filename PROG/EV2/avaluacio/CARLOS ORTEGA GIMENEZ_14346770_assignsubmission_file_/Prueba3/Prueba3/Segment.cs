@@ -1,16 +1,16 @@
 ﻿using Examen2;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Prueba3
 {
     public class Segment : Shape
     {
         Point2D a = new Point2D();
         Point2D b = new Point2D();
+        private Point2D[] _points => new Point2D[2] {a , b};
+
+        public override Point2D Center => GetCenter();
+
+        public override Rect2D? Rect => GetRect2D();
+
         public override void Draw(ICanvas canvas)
         {
             Point2D[] point2Ds = new Point2D[2];
@@ -37,12 +37,12 @@ namespace Prueba3
 
         public override Rect2D? GetRect2D()
         {
-            throw new NotImplementedException();
+            return Utils.GetBoundingBox(_points);
         }
 
         public override bool HasArea()
         {
-            throw new NotImplementedException();
+            return false;
         }
     }
 }

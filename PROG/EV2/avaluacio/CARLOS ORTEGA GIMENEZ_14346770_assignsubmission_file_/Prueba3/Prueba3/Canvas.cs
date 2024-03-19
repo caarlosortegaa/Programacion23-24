@@ -11,13 +11,7 @@ namespace Examen2
         public double MinX, MinY, MaxX, MaxY;
 
         // Javi: Una linea porfa
-        public double Area
-        {
-            get
-            {
-                return (MaxX - MinX) * (MaxY - MaxX);
-            }
-        }
+        public double Area => (MaxX - MinX) * (MaxY - MaxX);
         public Point2D? Center
         {
             get

@@ -8,6 +8,8 @@
         private Node<T> _parent {
             get
             {
+                if(_parent == null)
+                    return null;
                 return _parent;
             } 
             set
@@ -21,7 +23,7 @@
         public int ChildCount => _children.Count;
         public int Level => GetLevel();
         public bool Sibling => _parent._children .Count > 1;
-        public Node<T> Root => _parent;
+        public Node<T> Root => GetRooT();
         public Node(T value)
         {
             Content = value;
@@ -87,29 +89,7 @@
             }
             return false;
         }
-        public List<Node<T>>? Checker(CheckDelegate<T> check)
-        {
-            List<Node<T>> result = new List<Node<T>>();
-
-            if (check == null)
-                return null;
-            if(check(this))
-                result.Add(this);
-            Checker2(check, result);
-
-            return result;
-            
-        }
-        private void Checker2(CheckDelegate<T> check, List<Node<T>> list)
-        {
-            for(int i = 0; i < _children.Count; i++)
-            {
-                if (check(_children[i]))
-                    list.Add(_children[i]);
-                _children[i].Checker2(check, list);
-            }
-        }
-        public Node<T>? Checker3(CheckDelegate<T> check)
+        public Node<T>? FindNode(CheckDelegate<T> check)
         {
             if (check == null)
                 return null;
@@ -119,15 +99,39 @@
             
             for(int i = 0; i < _children.Count;i++)
             {
-                Node<T>? node = _children[i].Checker3(check);
+                Node<T>? node = _children[i].FindNode(check);
                 if(node != null)
                     return node;
                 
             }
             return null;
         }
-       
-        
+        public List<Node<T>> FindNodes(CheckDelegate<T> checker)
+        {
+            var list = new List<Node<T>>();
+            if(checker == null)
+                return list;
+            FindNodes(checker, list);
+            return list;
+        }
+
+        private void FindNodes(CheckDelegate<T> checker, List<Node<T>> list)
+        {
+            if(checker(this))
+                list.Add(this);
+            int n = ChildCount;
+            for(int i = 0; i < n; i++)
+                _children[i].FindNodes(checker, list);
+        }
+
+        public bool IsSibling(Node<T> node)
+        {
+            if (node == null || _parent == null)
+                return false;
+            if (this == node)
+                return false;
+            return _parent.ContainsParent(node);
+        }
 
 
     }

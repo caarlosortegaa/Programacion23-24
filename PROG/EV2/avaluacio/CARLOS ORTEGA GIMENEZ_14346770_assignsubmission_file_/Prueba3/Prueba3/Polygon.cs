@@ -4,21 +4,34 @@ namespace Prueba3
     public class Polygon : Shape
     {
         private Point2D[] _points = new Point2D[0];
-        
+        public bool IsClosed = false;
+
         public int PointCount => _points.Length;
-        
+        public override Point2D Center => GetCenter();
+        public override Rect2D? Rect => GetRect2D();
+
         public void Clear()
         {
             _points = new Point2D[0];
         }
+        public void Open()
+        {
+            IsClosed = false;
+        }
+        public void Close()
+        {
+            IsClosed = true;
+        }
         public void AddPoint(Point2D point)
         {
+            if (point == null)
+                return;
             Point2D[] newPoints = new Point2D[_points.Length + 1];
             for(int i = 0 ; i < _points.Length; i++)
             {
-                _points[i] = newPoints[i];
+                newPoints[i] = _points[i];
             }
-            newPoints[newPoints.Length -1] = point;
+            newPoints[_points.Length -1] = point;
             _points = newPoints;
         }
         public Point2D? GetPoint2D(int index)
@@ -42,7 +55,28 @@ namespace Prueba3
 
         public override Point2D GetCenter()
         {
-          
+            double MinX = 0;
+            double MinY = 0;
+            double MaxX = 0;
+            double MaxY = 0;
+            for(int i = 0; i < _points.Length; i++)
+            {
+                var p = _points[i];
+                if(p.X < MinX)
+                    MinX = p.X;
+                else if(p.X > MaxX)
+                    MaxX = p.X;
+                if(p.Y < MinY)
+                    MinY = p.Y;
+                else if(p.Y > MaxY)
+                    MaxY = p.Y;
+            }
+            return new Point2D()
+            {
+                X = MinX + (MaxX - MinX) / 2,
+                Y = MinY + (MaxY - MinY) / 2
+
+            };
         }
 
         public override double GetPerimeter()

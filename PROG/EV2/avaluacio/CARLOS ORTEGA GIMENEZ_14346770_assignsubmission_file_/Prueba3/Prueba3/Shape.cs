@@ -15,17 +15,19 @@ namespace Prueba3
             }
 
         }
-        // Javi: Tabula bien!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        public Color Color { get => color; set 
+        public Color Color 
+        { 
+            get => color; set 
             {
                 color = value;
-            } }
+            } 
+        }
         public bool Hasarea { get => HasArea() ; }
         public double Area { get => GetArea(); }
         public double Perimeter { get => GetPerimeter(); }
-        public Point2D? Center { get => GetCenter(); }
-        // Javi: Mal
-        public Rect2D? Rect { get; }
+        public abstract Point2D Center { get; }
+        
+        public abstract Rect2D? Rect { get; }
 
         public abstract double GetArea();
         public abstract double GetPerimeter();
@@ -42,9 +44,13 @@ namespace Prueba3
         {
 
         }
+        public virtual void Draw(ICanvas canvas)
+        {
+            canvas.SetColor(color);
+        }
         
 
-        public abstract void Draw(ICanvas canvas);
+        
         public void SetName(string name)
         {
             if (name == null)

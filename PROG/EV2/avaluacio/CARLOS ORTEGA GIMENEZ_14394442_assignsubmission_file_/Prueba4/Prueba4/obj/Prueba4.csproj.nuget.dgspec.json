@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV2\\avaluacio\\CARLOS ORTEGA GIMENEZ_14394442_assignsubmission_file_\\Prueba4\\Prueba4\\Prueba4.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\2EVPracticasParaRehacer\\Prueba4\\Prueba4\\Prueba4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV2\\avaluacio\\CARLOS ORTEGA GIMENEZ_14394442_assignsubmission_file_\\Prueba4\\Prueba4\\Prueba4.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\2EVPracticasParaRehacer\\Prueba4\\Prueba4\\Prueba4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV2\\avaluacio\\CARLOS ORTEGA GIMENEZ_14394442_assignsubmission_file_\\Prueba4\\Prueba4\\Prueba4.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\2EVPracticasParaRehacer\\Prueba4\\Prueba4\\Prueba4.csproj",
         "projectName": "Prueba4",
-        "projectPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV2\\avaluacio\\CARLOS ORTEGA GIMENEZ_14394442_assignsubmission_file_\\Prueba4\\Prueba4\\Prueba4.csproj",
-        "packagesPath": "C:\\Users\\carortgim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV2\\avaluacio\\CARLOS ORTEGA GIMENEZ_14394442_assignsubmission_file_\\Prueba4\\Prueba4\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\2EVPracticasParaRehacer\\Prueba4\\Prueba4\\Prueba4.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\2EVPracticasParaRehacer\\Prueba4\\Prueba4\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\carortgim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

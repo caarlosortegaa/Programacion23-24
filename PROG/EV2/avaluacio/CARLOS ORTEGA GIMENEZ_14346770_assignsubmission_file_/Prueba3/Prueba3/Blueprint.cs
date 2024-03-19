@@ -21,14 +21,15 @@ namespace Prueba3
                 }
             }
         }
-        public List<IShape> GetShapes(FilterDelegate where)
+        public List<IShape>? GetShapes(FilterDelegate where)
         {
+            if (where == null)
+                return null;
             List<IShape> shapes = new List<IShape>();
             for(int i = 0; i < _shapes.Count; i++)
             {
-                // Javi: AAAHH!!! se te ha colao, es shapes.
                 if (where(_shapes[i]))
-                    _shapes.Add(shapes[i]);
+                    shapes.Add(_shapes[i]);
             }
             return shapes;
         }

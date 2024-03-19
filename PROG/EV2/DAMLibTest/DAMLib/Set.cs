@@ -45,6 +45,12 @@
             }
             return -1;
         }
+        public T GetelementAt(int index)
+        {
+            if((index >= 0 || index < Count))
+                return _set[index];
+            return default(T);
+        }
         public void clear()
         {
             _set = new T[0];

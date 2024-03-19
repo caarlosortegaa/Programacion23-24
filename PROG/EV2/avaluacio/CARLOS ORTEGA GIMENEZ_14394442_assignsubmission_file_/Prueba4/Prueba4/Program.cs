@@ -5,14 +5,14 @@
         // Javi: NOTA 1
         static void Main(string[] args)
         {
-            ExList<int> exList = new ExList<int> ();
-            exList.AddElement (1);
-            exList.AddElement (2);
-            exList.AddElement (3);
-            exList.AddElement (4);
-            exList.AddElement (5);
-            exList.AddElement (6);
-
+            ExList<string> exList = new ExList<string> ();
+            exList.AddElement ("juan");
+            exList.AddElement ("avelñi");
+            exList.AddElement ("carlos");
+            exList.AddElement ("adrian");
+            exList.AddElement ("juanjko");
+            exList.AddElement ("Fernaaando");
+            exList.Insert(4, "aurelio");
             exList.Reverse();
         }
     }

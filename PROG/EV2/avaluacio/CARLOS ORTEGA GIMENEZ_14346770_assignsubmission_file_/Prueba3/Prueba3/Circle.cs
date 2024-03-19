@@ -5,7 +5,12 @@ namespace Prueba3
     public class Circle : Shape
     {
         Point2D center = new Point2D();
-        Point2D radius = new Point2D();
+        public double radius { get; set; }
+
+        public override Point2D Center => GetCenter();
+
+        public override Rect2D? Rect => GetRect2D();
+
         public override void Draw(ICanvas canvas)
         {
             canvas.DrawCircle(Rect);
@@ -13,26 +18,28 @@ namespace Prueba3
 
         public override double GetArea()
         {
-            var rect = new Point2D[2];
-            rect[0] = center;
-            rect[1] = radius;
-
-            return Math.PI * (rect[1].X - center.X) * 2;
+            return Math.PI * (radius * radius);
         }
 
         public override Point2D GetCenter()
         {
-            throw new NotImplementedException();
+            return Center;
         }
 
         public override double GetPerimeter()
         {
-            throw new NotImplementedException();
+            return 2 * Math.PI * (radius * radius);
         }
 
         public override Rect2D? GetRect2D()
-        { 
-            throw new NotImplementedException();
+        {
+            return new Rect2D()
+            {
+                MinX = center.X - radius,
+                MaxX = center.X + radius,
+                MinY = center.Y - radius,
+                MaxY = center.Y + radius
+            };
         }
 
         public override bool HasArea()
