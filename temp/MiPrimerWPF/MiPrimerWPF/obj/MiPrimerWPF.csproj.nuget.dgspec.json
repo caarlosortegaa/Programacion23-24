@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\NdupCopy\\NdupCopy\\NdupCopy.csproj": {}
+    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\MiPrimerWPF\\MiPrimerWPF\\MiPrimerWPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\NdupCopy\\NdupCopy\\NdupCopy.csproj": {
+    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\MiPrimerWPF\\MiPrimerWPF\\MiPrimerWPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\NdupCopy\\NdupCopy\\NdupCopy.csproj",
-        "projectName": "NdupCopy",
-        "projectPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\NdupCopy\\NdupCopy\\NdupCopy.csproj",
+        "projectUniqueName": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\MiPrimerWPF\\MiPrimerWPF\\MiPrimerWPF.csproj",
+        "projectName": "MiPrimerWPF",
+        "projectPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\MiPrimerWPF\\MiPrimerWPF\\MiPrimerWPF.csproj",
         "packagesPath": "C:\\Users\\carortgim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\NdupCopy\\NdupCopy\\obj\\",
+        "outputPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\MiPrimerWPF\\MiPrimerWPF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carortgim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -53,6 +53,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"

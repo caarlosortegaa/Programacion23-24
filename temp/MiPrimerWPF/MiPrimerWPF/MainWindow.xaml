@@ -1,0 +1,23 @@
+﻿<Window x:Class="MiPrimerWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MiPrimerWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="MainButton">
+        <Button x:Name="Botonmian" Content="Aprieta aqui&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Center" Height="82" Width="146" Margin="254,0,0,0" Click="OnClick"/>
+        <CheckBox x:Name="checkboxMain" Content="Aprieta Aquí" HorizontalAlignment="Left" Margin="463,205,0,0" VerticalAlignment="Top" Height="28" Width="170" AutomationProperties.Name="juan" Cursor="Pen" Background="White" RenderTransformOrigin="0.5,0.5">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.197"/>
+                    <TranslateTransform X="-1"/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+
+    </Grid>
+</Window>

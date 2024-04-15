@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\NdupCopy\\NdupCopy\\NdupCopy.csproj": {}
+    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\NdupCopy\\NdupCopy\\NdupCopy.csproj": {
+    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\NdupCopy\\NdupCopy\\NdupCopy.csproj",
-        "projectName": "NdupCopy",
-        "projectPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\NdupCopy\\NdupCopy\\NdupCopy.csproj",
+        "projectUniqueName": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectName": "ConsoleApp1",
+        "projectPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\carortgim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\NdupCopy\\NdupCopy\\obj\\",
+        "outputPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\ConsoleApp1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carortgim\\AppData\\Roaming\\NuGet\\NuGet.Config",
