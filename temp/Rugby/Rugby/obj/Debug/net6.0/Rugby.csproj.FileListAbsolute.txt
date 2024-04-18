@@ -1,0 +1,14 @@
+C:\Users\carortgim\Desktop\Rugby\Rugby\obj\Debug\net6.0\Rugby.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carortgim\Desktop\Rugby\Rugby\obj\Debug\net6.0\Rugby.AssemblyInfoInputs.cache
+C:\Users\carortgim\Desktop\Rugby\Rugby\obj\Debug\net6.0\Rugby.AssemblyInfo.cs
+C:\Users\carortgim\Desktop\Rugby\Rugby\obj\Debug\net6.0\Rugby.csproj.CoreCompileInputs.cache
+C:\Users\carortgim\Desktop\Rugby\Rugby\bin\Debug\net6.0\Rugby.exe
+C:\Users\carortgim\Desktop\Rugby\Rugby\bin\Debug\net6.0\Rugby.deps.json
+C:\Users\carortgim\Desktop\Rugby\Rugby\bin\Debug\net6.0\Rugby.runtimeconfig.json
+C:\Users\carortgim\Desktop\Rugby\Rugby\bin\Debug\net6.0\Rugby.dll
+C:\Users\carortgim\Desktop\Rugby\Rugby\bin\Debug\net6.0\Rugby.pdb
+C:\Users\carortgim\Desktop\Rugby\Rugby\obj\Debug\net6.0\Rugby.dll
+C:\Users\carortgim\Desktop\Rugby\Rugby\obj\Debug\net6.0\refint\Rugby.dll
+C:\Users\carortgim\Desktop\Rugby\Rugby\obj\Debug\net6.0\Rugby.pdb
+C:\Users\carortgim\Desktop\Rugby\Rugby\obj\Debug\net6.0\Rugby.genruntimeconfig.cache
+C:\Users\carortgim\Desktop\Rugby\Rugby\obj\Debug\net6.0\ref\Rugby.dll
