@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carortgim\\Desktop\\Rugby\\Rugby\\Rugby.csproj": {}
+    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\Rugby\\Rugby\\Rugby.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carortgim\\Desktop\\Rugby\\Rugby\\Rugby.csproj": {
+    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\Rugby\\Rugby\\Rugby.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carortgim\\Desktop\\Rugby\\Rugby\\Rugby.csproj",
+        "projectUniqueName": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\Rugby\\Rugby\\Rugby.csproj",
         "projectName": "Rugby",
-        "projectPath": "C:\\Users\\carortgim\\Desktop\\Rugby\\Rugby\\Rugby.csproj",
+        "projectPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\Rugby\\Rugby\\Rugby.csproj",
         "packagesPath": "C:\\Users\\carortgim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carortgim\\Desktop\\Rugby\\Rugby\\obj\\",
+        "outputPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\temp\\Rugby\\Rugby\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carortgim\\AppData\\Roaming\\NuGet\\NuGet.Config",

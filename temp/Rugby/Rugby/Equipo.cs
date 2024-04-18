@@ -2,7 +2,7 @@
 {
     public class Equipo
     {
-        private string _name;
+        public string _name;
     }
     
 }
