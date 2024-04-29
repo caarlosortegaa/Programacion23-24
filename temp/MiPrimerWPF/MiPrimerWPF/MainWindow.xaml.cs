@@ -12,19 +12,5 @@ namespace MiPrimerWPF
         {
             InitializeComponent();
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void OnClick(object sender, RoutedEventArgs e)
-        {
-            //MessageBox.Show("boton apretado");
-            var state = checkboxMain.IsChecked;
-            checkboxMain.IsChecked = !state;
-
-            Botonmian.Content += "0";
-        }
     }
 }
