@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Proyecto3Ev/1.0.0": {
+        "runtime": {
+          "Proyecto3Ev.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Proyecto3Ev/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
