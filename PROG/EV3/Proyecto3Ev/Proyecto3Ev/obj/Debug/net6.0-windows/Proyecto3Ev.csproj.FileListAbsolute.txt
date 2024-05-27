@@ -19,3 +19,6 @@ C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Proyecto3Ev.pdb
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Proyecto3Ev.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\ref\Proyecto3Ev.dll
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Views\Usuarios.g.cs
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Views\Usuarios.baml
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
