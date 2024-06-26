@@ -9,6 +9,7 @@
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         AllowsTransparency="True"
+        MouseDown="Window_MouseDown"
         Background="Transparent">
     <Window.Resources>
         <!--#region VISUAL-->
@@ -225,7 +226,7 @@
     </Window.Resources>
     <!--#region PROYECTO-->
     <Border CornerRadius="10"
-            Background="GhostWhite">
+            Background="Transparent">
         <Grid Name="Principal"
               Background="Transparent">
             <!--#region HEADER-->
@@ -234,6 +235,7 @@
                   VerticalAlignment="Top"
                   Background="Transparent">
                 <Border CornerRadius="10,10,0,0"
+                        Opacity=".9"
                         Background="CornflowerBlue"/>
                 <!--#region TITULO-->
 
@@ -342,12 +344,8 @@
                   HorizontalAlignment="Right"
                   Height="565"
                   Width="925" PreviewMouseLeftButtonDown="PreviewLeftMouseButtonDown">
-                <Border CornerRadius="0,0,0,10"
+                <Border CornerRadius="0,0,10,0"
                         Background="#C8E1FF"/>
-                <TextBlock Text="VentasExpress"
-                           VerticalAlignment="Center"
-                           HorizontalAlignment="Center"
-                           FontSize="50"/>
                 <ContentControl Content="{Binding}"/>
             </Grid>
             <!--#endregion CONTENT-->
@@ -358,6 +356,7 @@
                   HorizontalAlignment="Left"
                   Margin="0,35,0,0">
                 <Border Background="CornflowerBlue"
+                        Opacity=".9"
                         CornerRadius="0,0,0,10"/>
                 <!--#region MENU-->
                 <StackPanel Background="Transparent"
@@ -372,6 +371,9 @@
                                       Height="30"
                                       BorderBrush="Transparent" Checked="TBShow" Unchecked="TBHide"
                                       Cursor="Cross">
+                            <Image Source="Recursos/IMG/Menu.png"
+                                   Width="30"
+                                   HorizontalAlignment="Center"/>
                             <ToggleButton.Background>
                                 <ImageBrush/>
                             </ToggleButton.Background>
@@ -477,6 +479,7 @@
                                     Width="200"
                                     HorizontalAlignment="Left"
                                     Cursor="Arrow"
+                                    Click="BtnProductos_Click"
                                     Background="Transparent"
                                     BorderBrush="Transparent">
                                 <Grid Width="200">

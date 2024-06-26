@@ -1,0 +1,15 @@
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\NdupCopy\NdupCopy\obj\Debug\net6.0\NdupCopy.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\NdupCopy\NdupCopy\obj\Debug\net6.0\NdupCopy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\NdupCopy\NdupCopy\obj\Debug\net6.0\NdupCopy.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\NdupCopy\NdupCopy\obj\Debug\net6.0\NdupCopy.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\NdupCopy\NdupCopy\obj\Debug\net6.0\NdupCopy.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\NdupCopy\NdupCopy\bin\Debug\net6.0\NdupCopy.exe
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\NdupCopy\NdupCopy\bin\Debug\net6.0\NdupCopy.deps.json
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\NdupCopy\NdupCopy\bin\Debug\net6.0\NdupCopy.runtimeconfig.json
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\NdupCopy\NdupCopy\bin\Debug\net6.0\NdupCopy.dll
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\NdupCopy\NdupCopy\bin\Debug\net6.0\NdupCopy.pdb
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\NdupCopy\NdupCopy\obj\Debug\net6.0\NdupCopy.dll
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\NdupCopy\NdupCopy\obj\Debug\net6.0\refint\NdupCopy.dll
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\NdupCopy\NdupCopy\obj\Debug\net6.0\NdupCopy.pdb
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\NdupCopy\NdupCopy\obj\Debug\net6.0\NdupCopy.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\NdupCopy\NdupCopy\obj\Debug\net6.0\ref\NdupCopy.dll

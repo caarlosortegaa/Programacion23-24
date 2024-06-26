@@ -7,7 +7,27 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\CRUDProductosxaml.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\CrudUsuarios.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Producto.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\CRUDProductosxaml.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\CrudUsuarios.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Producto.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Usuarios.xaml">

@@ -7,4 +7,43 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Recursos\IMG\casa.png" />
+    <None Remove="Recursos\IMG\cerrar.png" />
+    <None Remove="Recursos\IMG\cuenta.png" />
+    <None Remove="Recursos\IMG\gara.png" />
+    <None Remove="Recursos\IMG\icono.jpg" />
+    <None Remove="Recursos\IMG\menu.png" />
+    <None Remove="Recursos\IMG\minimizar.jpeg" />
+    <None Remove="Recursos\IMG\perfil.png" />
+    <None Remove="Recursos\IMG\posi.png" />
+    <None Remove="Recursos\IMG\usuario.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Capa_Entidad\Capa_Entidad.csproj" />
+    <ProjectReference Include="..\Capa_Negocio\Capa_Negocio.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Recursos\IMG\menu.png" />
+    <Resource Include="Recursos\IMG\usuario.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Recursos\IMG\casa.png" />
+    <Resource Include="Recursos\IMG\cerrar.png" />
+    <Resource Include="Recursos\IMG\cuenta.png" />
+    <Resource Include="Recursos\IMG\gara.png" />
+    <Resource Include="Recursos\IMG\icono.jpg" />
+    <Resource Include="Recursos\IMG\minimizar.jpeg" />
+    <Resource Include="Recursos\IMG\perfil.png" />
+    <Resource Include="Recursos\IMG\posi.png" />
+  </ItemGroup>
+
 </Project>

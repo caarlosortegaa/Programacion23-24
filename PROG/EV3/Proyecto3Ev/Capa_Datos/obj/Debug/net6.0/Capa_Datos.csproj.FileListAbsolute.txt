@@ -1,0 +1,15 @@
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Datos\bin\Debug\net6.0\Capa_Datos.deps.json
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Datos\bin\Debug\net6.0\Capa_Datos.dll
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Datos\bin\Debug\net6.0\Capa_Datos.pdb
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Datos\bin\Debug\net6.0\Capa_Entidad.dll
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Datos\bin\Debug\net6.0\Capa_Entidad.pdb
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Datos\obj\Debug\net6.0\Capa_Datos.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Datos\obj\Debug\net6.0\Capa_Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Datos\obj\Debug\net6.0\Capa_Datos.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Datos\obj\Debug\net6.0\Capa_Datos.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Datos\obj\Debug\net6.0\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Datos\obj\Debug\net6.0\Capa_Datos.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Datos\obj\Debug\net6.0\Capa_Datos.dll
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Datos\obj\Debug\net6.0\refint\Capa_Datos.dll
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Datos\obj\Debug\net6.0\Capa_Datos.pdb
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Datos\obj\Debug\net6.0\ref\Capa_Datos.dll

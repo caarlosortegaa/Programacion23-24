@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\App.xaml
-2-1220349340
+5-1969103790
 
-4299866007
-194618410957
-MainWindow.xaml;Views\Usuarios.xaml;
+7830467945
+19963252490
+MainWindow.xaml;Views\CRUDProductosxaml.xaml;Views\CrudUsuarios.xaml;Views\Producto.xaml;Views\Usuarios.xaml;
 
 False
 

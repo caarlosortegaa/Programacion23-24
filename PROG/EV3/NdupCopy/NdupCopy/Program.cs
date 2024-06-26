@@ -4,10 +4,7 @@
     {
         static void Main(string[] args)
         {
-            foreach (var path in args)
-            {
-                Console.WriteLine(path);
-            }
+            NdupCopy.CrearYEjecutar(args);
         }
     }
 }
