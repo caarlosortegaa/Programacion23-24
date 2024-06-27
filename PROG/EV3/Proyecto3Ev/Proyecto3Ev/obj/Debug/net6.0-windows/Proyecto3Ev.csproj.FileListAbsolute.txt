@@ -8,7 +8,6 @@ C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Views\CrudUsuarios.g.cs
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Views\Usuarios.g.cs
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\App.g.cs
-C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Proyecto3Ev_MarkupCompile.cache
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Proyecto3Ev_MarkupCompile.lref
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\MainWindow.baml
@@ -44,3 +43,12 @@ C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Views\CRUDProductosxaml.g.cs
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Views\CRUDProductosxaml.baml
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Views\Producto.baml
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Views\POS.g.cs
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Views\POS.baml
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Views\AcercaDe.g.cs
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Views\AcercaDe.baml
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Views\DashBoard.g.cs
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Views\DashBoard.baml
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Views\MiCuenta.g.cs
+C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\obj\Debug\net6.0-windows\Views\MiCuenta.baml

@@ -9,7 +9,6 @@
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         AllowsTransparency="True"
-        MouseDown="Window_MouseDown"
         Background="Transparent">
     <Window.Resources>
         <!--#region VISUAL-->
@@ -222,7 +221,8 @@
                       DataType="{x:Type viewmodels:Usuarios}">
             <viewmodels:Usuarios DataContext="{Binding}"/>
         </DataTemplate>
-            <!--#endregion-->
+                      
+        <!--#endregion-->
     </Window.Resources>
     <!--#region PROYECTO-->
     <Border CornerRadius="10"
@@ -236,7 +236,8 @@
                   Background="Transparent">
                 <Border CornerRadius="10,10,0,0"
                         Opacity=".9"
-                        Background="CornflowerBlue"/>
+                        Background="CornflowerBlue"
+                        Loaded="RestaurarVentana"/>
                 <!--#region TITULO-->
 
                 <TextBlock Text="VentasExpress"
@@ -254,6 +255,7 @@
                         <ColumnDefinition Width="100"/>
                     </Grid.ColumnDefinitions>
                     <Button x:Name="Iniciar_sesion"
+                            Click="MiCuenta"
                             Grid.Column="1"
                             Background="Transparent"
                             FontSize="15"
@@ -281,7 +283,8 @@
                     </Button>
                     <!--#endregion CUENTA-->
                 <!--#region INFO-->
-                    <Button x:Name="Info"
+                    <Button x:Name="info"
+                            Click="info_Click"
                             Background="Transparent"
                             Grid.Column="1"
                             BorderBrush="Transparent"
@@ -290,6 +293,7 @@
                             VerticalAlignment="Center"
                             HorizontalAlignment="Right"
                             Cursor="Hand">
+                        
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="15"/>
@@ -417,6 +421,7 @@
                         <ListViewItem Style="{DynamicResource ListViewStyle}" Height="70">
                             <Button Style="{DynamicResource BtnInicioEstilo}" 
                                     x:Name="BtnInicio"
+                                    Click="dashboard"
                                     Height="70"
                                     Width="200"
                                     HorizontalAlignment="Left"
@@ -446,6 +451,7 @@
                         <ListViewItem Style="{DynamicResource ListViewStyle}" Height="70">
                             <Button Style="{DynamicResource BtnInicioEstilo}" 
                                     x:Name="BtnPos"
+                                    Click="POS"
                                     Height="70"
                                     Width="200"
                                     HorizontalAlignment="Left"

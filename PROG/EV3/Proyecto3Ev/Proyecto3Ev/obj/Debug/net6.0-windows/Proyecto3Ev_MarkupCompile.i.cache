@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Proyecto3Ev\App.xaml
-5-1969103790
+9-1117104800
 
-9-1191734644
+132056864369
 19963252490
-MainWindow.xaml;Views\CRUDProductosxaml.xaml;Views\CrudUsuarios.xaml;Views\Producto.xaml;Views\Usuarios.xaml;
+MainWindow.xaml;Views\AcercaDe.xaml;Views\CRUDProductosxaml.xaml;Views\CrudUsuarios.xaml;Views\DashBoard.xaml;Views\MiCuenta.xaml;Views\POS.xaml;Views\Producto.xaml;Views\Usuarios.xaml;
 
 True
 

@@ -13,11 +13,14 @@
     <None Remove="Recursos\IMG\cuenta.png" />
     <None Remove="Recursos\IMG\gara.png" />
     <None Remove="Recursos\IMG\icono.jpg" />
+    <None Remove="Recursos\IMG\ins.png" />
     <None Remove="Recursos\IMG\menu.png" />
     <None Remove="Recursos\IMG\minimizar.jpeg" />
     <None Remove="Recursos\IMG\perfil.png" />
     <None Remove="Recursos\IMG\posi.png" />
+    <None Remove="Recursos\IMG\tik.png" />
     <None Remove="Recursos\IMG\usuario.png" />
+    <None Remove="Recursos\IMG\ventas.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,7 +34,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Recursos\IMG\ins.png" />
     <Resource Include="Recursos\IMG\menu.png" />
+    <Resource Include="Recursos\IMG\tik.png" />
     <Resource Include="Recursos\IMG\usuario.png" />
   </ItemGroup>
 
@@ -44,6 +49,7 @@
     <Resource Include="Recursos\IMG\minimizar.jpeg" />
     <Resource Include="Recursos\IMG\perfil.png" />
     <Resource Include="Recursos\IMG\posi.png" />
+    <Resource Include="Recursos\IMG\ventas.png" />
   </ItemGroup>
 
 </Project>
