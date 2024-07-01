@@ -89,3 +89,4 @@ create procedure SP_A_ActualizarIMG
 as begin
 update Articulos set img = @Img where IdArticulo = @IdArticulo end
 
+select Grupo from Articulos
