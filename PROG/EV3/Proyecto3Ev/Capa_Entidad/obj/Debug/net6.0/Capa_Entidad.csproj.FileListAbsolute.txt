@@ -10,3 +10,15 @@ C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\obj
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\obj\Debug\net6.0\refint\Capa_Entidad.dll
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\obj\Debug\net6.0\Capa_Entidad.pdb
 C:\Users\Usuario\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\obj\Debug\net6.0\ref\Capa_Entidad.dll
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\bin\Debug\net6.0\Capa_Entidad.deps.json
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\bin\Debug\net6.0\Capa_Entidad.dll
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\bin\Debug\net6.0\Capa_Entidad.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\obj\Debug\net6.0\Capa_Entidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\obj\Debug\net6.0\Capa_Entidad.AssemblyInfoInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\obj\Debug\net6.0\Capa_Entidad.AssemblyInfo.cs
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\obj\Debug\net6.0\Capa_Entidad.csproj.CoreCompileInputs.cache
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\obj\Debug\net6.0\Capa_Entidad.sourcelink.json
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\obj\Debug\net6.0\Capa_Entidad.dll
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\obj\Debug\net6.0\refint\Capa_Entidad.dll
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\obj\Debug\net6.0\Capa_Entidad.pdb
+C:\Users\carortgim\Desktop\Programacion23-24\PROG\EV3\Proyecto3Ev\Capa_Entidad\obj\Debug\net6.0\ref\Capa_Entidad.dll

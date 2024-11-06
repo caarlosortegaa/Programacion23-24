@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Capa_Entidad\\Capa_Entidad.csproj": {}
+    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Capa_Entidad\\Capa_Entidad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Capa_Entidad\\Capa_Entidad.csproj": {
+    "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Capa_Entidad\\Capa_Entidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Capa_Entidad\\Capa_Entidad.csproj",
+        "projectUniqueName": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Capa_Entidad\\Capa_Entidad.csproj",
         "projectName": "Capa_Entidad",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Capa_Entidad\\Capa_Entidad.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Capa_Entidad\\obj\\",
+        "projectPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Capa_Entidad\\Capa_Entidad.csproj",
+        "packagesPath": "C:\\Users\\carortgim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Capa_Entidad\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\carortgim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Usuario\\Desktop\\Programacion23-24\\nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

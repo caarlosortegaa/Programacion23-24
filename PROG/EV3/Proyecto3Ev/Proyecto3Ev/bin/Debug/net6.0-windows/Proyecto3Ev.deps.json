@@ -517,7 +517,10 @@
           "System.Net.Http": "4.3.4"
         },
         "runtime": {
-          "Capa_Datos.dll": {}
+          "Capa_Datos.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Capa_Entidad/1.0.0": {
@@ -525,7 +528,10 @@
           "System.Net.Http": "4.3.4"
         },
         "runtime": {
-          "Capa_Entidad.dll": {}
+          "Capa_Entidad.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Capa_Negocio/1.0.0": {
@@ -534,7 +540,10 @@
           "Capa_Entidad": "1.0.0"
         },
         "runtime": {
-          "Capa_Negocio.dll": {}
+          "Capa_Negocio.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

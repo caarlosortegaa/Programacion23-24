@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|c:\\users\\carortgim\\desktop\\programacion23-24\\prog\\ev3\\proyecto3ev\\proyecto3ev\\views\\crudproductosxaml.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|solutionrelative:proyecto3ev\\views\\crudproductosxaml.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|c:\\users\\carortgim\\desktop\\programacion23-24\\prog\\ev3\\proyecto3ev\\proyecto3ev\\views\\acercade.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|solutionrelative:proyecto3ev\\views\\acercade.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|c:\\users\\carortgim\\desktop\\programacion23-24\\prog\\ev3\\proyecto3ev\\proyecto3ev\\views\\crudusuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|solutionrelative:proyecto3ev\\views\\crudusuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|c:\\users\\carortgim\\desktop\\programacion23-24\\prog\\ev3\\proyecto3ev\\proyecto3ev\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|solutionrelative:proyecto3ev\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|c:\\users\\carortgim\\desktop\\programacion23-24\\prog\\ev3\\proyecto3ev\\proyecto3ev\\views\\micuenta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|solutionrelative:proyecto3ev\\views\\micuenta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|c:\\users\\carortgim\\desktop\\programacion23-24\\prog\\ev3\\proyecto3ev\\proyecto3ev\\views\\pos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|solutionrelative:proyecto3ev\\views\\pos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|c:\\users\\carortgim\\desktop\\programacion23-24\\prog\\ev3\\proyecto3ev\\proyecto3ev\\views\\producto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|solutionrelative:proyecto3ev\\views\\producto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|c:\\users\\carortgim\\desktop\\programacion23-24\\prog\\ev3\\proyecto3ev\\proyecto3ev\\views\\usuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|solutionrelative:proyecto3ev\\views\\usuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|c:\\users\\carortgim\\desktop\\programacion23-24\\prog\\ev3\\proyecto3ev\\proyecto3ev\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40FE197E-BBB6-43D1-82BC-DDED10C98334}|Proyecto3Ev\\Proyecto3Ev.csproj|solutionrelative:proyecto3ev\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AcercaDe.xaml",
+              "DocumentMoniker": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\AcercaDe.xaml",
+              "RelativeDocumentMoniker": "Proyecto3Ev\\Views\\AcercaDe.xaml",
+              "ToolTip": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\AcercaDe.xaml",
+              "RelativeToolTip": "Proyecto3Ev\\Views\\AcercaDe.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T17:16:40.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CRUDProductosxaml.xaml",
+              "DocumentMoniker": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\CRUDProductosxaml.xaml",
+              "RelativeDocumentMoniker": "Proyecto3Ev\\Views\\CRUDProductosxaml.xaml",
+              "ToolTip": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\CRUDProductosxaml.xaml",
+              "RelativeToolTip": "Proyecto3Ev\\Views\\CRUDProductosxaml.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T17:16:37.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Producto.xaml",
+              "DocumentMoniker": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\Producto.xaml",
+              "RelativeDocumentMoniker": "Proyecto3Ev\\Views\\Producto.xaml",
+              "ToolTip": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\Producto.xaml",
+              "RelativeToolTip": "Proyecto3Ev\\Views\\Producto.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T17:16:21.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usuarios.xaml",
+              "DocumentMoniker": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\Usuarios.xaml",
+              "RelativeDocumentMoniker": "Proyecto3Ev\\Views\\Usuarios.xaml",
+              "ToolTip": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\Usuarios.xaml",
+              "RelativeToolTip": "Proyecto3Ev\\Views\\Usuarios.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T17:14:49.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CrudUsuarios.xaml",
+              "DocumentMoniker": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\CrudUsuarios.xaml",
+              "RelativeDocumentMoniker": "Proyecto3Ev\\Views\\CrudUsuarios.xaml",
+              "ToolTip": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\CrudUsuarios.xaml",
+              "RelativeToolTip": "Proyecto3Ev\\Views\\CrudUsuarios.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T17:14:17.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Proyecto3Ev\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\MainWindow.xaml",
+              "RelativeToolTip": "Proyecto3Ev\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T17:11:38.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MiCuenta.xaml",
+              "DocumentMoniker": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\MiCuenta.xaml",
+              "RelativeDocumentMoniker": "Proyecto3Ev\\Views\\MiCuenta.xaml",
+              "ToolTip": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\MiCuenta.xaml",
+              "RelativeToolTip": "Proyecto3Ev\\Views\\MiCuenta.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T17:11:38.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashBoard.xaml",
+              "DocumentMoniker": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\DashBoard.xaml",
+              "RelativeDocumentMoniker": "Proyecto3Ev\\Views\\DashBoard.xaml",
+              "ToolTip": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\DashBoard.xaml",
+              "RelativeToolTip": "Proyecto3Ev\\Views\\DashBoard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T17:11:38.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "POS.xaml",
+              "DocumentMoniker": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\POS.xaml",
+              "RelativeDocumentMoniker": "Proyecto3Ev\\Views\\POS.xaml",
+              "ToolTip": "C:\\Users\\carortgim\\Desktop\\Programacion23-24\\PROG\\EV3\\Proyecto3Ev\\Proyecto3Ev\\Views\\POS.xaml",
+              "RelativeToolTip": "Proyecto3Ev\\Views\\POS.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T17:11:38.296Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
