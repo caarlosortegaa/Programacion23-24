@@ -181,7 +181,7 @@ namespace Proyecto3Ev.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Proyecto3Ev;component/views/crudusuarios.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Proyecto3Ev;V1.0.0.0;component/views/crudusuarios.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\CrudUsuarios.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
